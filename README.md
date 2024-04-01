@@ -27,6 +27,14 @@ Thai Food Superstore website was created to have straightforward navigation, eye
 |[6]()|As a First Time Visitor, I want to have personalized user profile, so that I can view my personal order history and order confirmation, and save my payment information.|
 |        |                                         |
 
-### Register User(customer)
+### Regular User(customer)
 | Issue ID         |          User Story                      |
 |------------------| ----------------------------------------- |
+|[6]()|As a Regular User, I want to be able to access my account and easily, so that I can check my account details and order history.|
+|[7]()|As a Regular User, I want to be sure that my account details are protected, so that I can safely make purchase.|
+|[8]()|As a Regular User, I want to be able to view a list of products, so that I can select some to purchase.|
+|[9]()|As a Regular User, I want to be able to view individual product details, so that I can identify the price, description, product special offers, product image and available sizes.|
+|[10]()|As a Regular User, I want to be able to easily view the total of my purchases at any time, so that I can avoid spending too much and purchase a wrong item.|
+|[11]()|As a Regular User, I want to be able to sort the list of available products, so that I can easily identify the best priced and categorically sorted products.|
+|[12]()|As a Regular User, I want to be able to sort a specific category of product, so that I find the best priced and specific category or sort the products in that category by name.|
+|[13]()|As a Regular User, I want to be able to easily see what I've searched for and the number of results, so that I can quickly decide whether the product I want is available .|
