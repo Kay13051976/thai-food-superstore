@@ -30,11 +30,18 @@ Thai Food Superstore website was created to have straightforward navigation, eye
 ### Regular User(customer)
 | Issue ID         |          User Story                      |
 |------------------| ----------------------------------------- |
-|[6]()|As a Regular User, I want to be able to access my account and easily, so that I can check my account details and order history.|
-|[7]()|As a Regular User, I want to be sure that my account details are protected, so that I can safely make purchase.|
+|[6]()|As a Regular User, I want to be able to access my account easily, so that I can check my account details and order history.|
+|[7]()|As a Regular User, I want to feel my personal detail and payment information is protected and secure, so that I can be confident provide the needed information to make a purchase.|
 |[8]()|As a Regular User, I want to be able to view a list of products, so that I can select some to purchase.|
 |[9]()|As a Regular User, I want to be able to view individual product details, so that I can identify the price, description, product special offers, product image and available sizes.|
 |[10]()|As a Regular User, I want to be able to easily view the total of my purchases at any time, so that I can avoid spending too much and purchase a wrong item.|
 |[11]()|As a Regular User, I want to be able to sort the list of available products, so that I can easily identify the best priced and categorically sorted products.|
 |[12]()|As a Regular User, I want to be able to sort a specific category of product, so that I find the best priced and specific category or sort the products in that category by name.|
-|[13]()|As a Regular User, I want to be able to easily see what I've searched for and the number of results, so that I can quickly decide whether the product I want is available .|
+|[13]()|As a Regular User, I want to be able to easily see what I've searched for and the number of results, so that I can quickly decide whether the product I want is available.|
+|[14]()|As a Regular User, I want to be able to easily select the size and quantity of a product when purchasing it, so that I don't accidentally select the wrong product quantity or size.|
+|[15]()|As a Regular User, I want to be able to view items in my bag to b purchased, so that I can identify the total cost of my purchase and all items I will receive.|
+|[16]()|As a Regular User, I want to be able to adjust the quantity of individual items in my bag, so that I can easily make changes to my purchase before checkout.|
+|[17]()|As a Regular User, I want to be able to easily enter my payment information, so that I can check out quickly and with no hassles.|
+
+|[19]()|As a Regular User, I want to be able to view an order confirmation and checkout, so that I can verify that I haven't made any mistakes.|
+|[20]()|As a Regular User, I want to receive an email confirmation after checking out, so that I can keep the confirmation of what I've purchased for my records.|
