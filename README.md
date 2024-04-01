@@ -49,28 +49,17 @@ Thai Food Superstore website was created to have straightforward navigation, eye
 |[23]()|As a Regular User, I want to be able to change my primary address so that I can set the primary address without editing it.|
 |       |         |
 
-### Manager and admin
-| Issue ID         |          User Story                      |
-|------------------| ----------------------------------------- |
-|[24]()|As Manager, I want to be able to access to admin to add, edit and delete category, so that I can keep products categories up to date.|
-|[25]()|As Manager, I want to be able to add, edit and delete products, so that I can keep shop products up to date.|
-|[26]()|As Manager, I want to be add, edit, delete tags, so that I can keep products sorting up to date and, as a result, increase sales.|
-|[27]()|As Manager, I want to be able to change tags for a product, so that I can increase sales for a particular product.|
-|[28]()|As Manager, I want to be able to access to admin to add, edit and delete category, so that I can keep products categories up to date.|
-|[6]()|As Manager, I want to be able to access to admin to add, edit and delete category, so that I can keep products categories up to date.|
-|[6]()|As Manager, I want to be able to access to admin to add, edit and delete category, so that I can keep products categories up to date.|
-|[6]()|As Manager, I want to be able to access to admin to add, edit and delete category, so that I can keep products categories up to date.|
-|[6]()|As Manager, I want to be able to access to admin to add, edit and delete category, so that I can keep products categories up to date.|
-|[6]()|As Manager, I want to be able to access to admin to add, edit and delete category, so that I can keep products categories up to date.|
-|[6]()|As Manager, I want to be able to access to admin to add, edit and delete category, so that I can keep products categories up to date.|
-|[6]()|As Manager, I want to be able to access to admin to add, edit and delete category, so that I can keep products categories up to date.|
-
-
-
-
-
-
 ### Admin
 | Issue ID         |          User Story                      |
 |------------------| ----------------------------------------- |
-|[6]()|As a Regular User, I want to be able to access my account easily so that I can check my account details and order history.|
+|[24]()|As an Admin, I want to be able to add products so that I can add new items to my store.|
+|[25]()|As an Admin, I want to be able to edit and update products so that I can change product prices, descriptions, images, and other product criteria.|
+|[26]()|As an Admin, I want to be able to delete so that I can remove items that are no longer for sale.|
+|[27]()|As an Admin. I want to be able to send special discounts email notifications, so that I can inform customers about special offers.|
+|[28]()|As an Admin, I want to be able to add promotions so that I can increase sales and enhance customers.|
+|[29]()|As an Admin, I want to be able to be aware of units sold so that I can be aware of sales on a particular product.|
+
+### Manager
+| Issue ID         |          User Story                      |
+|------------------| ----------------------------------------- |
+|[6]()|As a Manager, I want to be able to access my account easily so that I can check my account details and order history.|
