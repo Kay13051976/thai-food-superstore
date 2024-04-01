@@ -59,7 +59,5 @@ Thai Food Superstore website was created to have straightforward navigation, eye
 |[28]()|As an Admin, I want to be able to add promotions so that I can increase sales and enhance customers.|
 |[29]()|As an Admin, I want to be able to be aware of units sold so that I can be aware of sales on a particular product.|
 
-### Manager
-| Issue ID         |          User Story                      |
-|------------------| ----------------------------------------- |
-|[6]()|As a Manager, I want to be able to access my account easily so that I can check my account details and order history.|
+## Business Model
+The business model is B2C, meaning that the company sells products to customers only. It focuses on individual transaction only.
