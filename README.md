@@ -61,3 +61,33 @@ Thai Food Superstore website was created to have straightforward navigation, eye
 
 ## Business Model
 The business model is B2C, meaning that the company sells products to customers only. It focuses on individual transaction only.
+## A personal summary of the customer
+The Thai Food Superstore is aimed at those interested in exploring Thai cuisine's rich and diverse flavours. The store provides everyone with the best possible service. The age criteria on this website are customers who are 18 and older. The emphasis was made on providing a good user experience for the customers. This allows them to find the products they are looking for, gives them all available options for these products, and offers the best possible service.
+
+## Strategy Trade-Off
+
+* a wide variety of Thai cuisine product offerings
+* product availability
+* product quality
+* product choice
+* good user experience
+* good service
+* Good sales
+### Web Marketing 
+Newsletter were implemented in the email_notification app.
+#### strategies
+* Practical web marketing strategies
+  * SEO(Search Engine Optimization)
+  * Content marketing
+  * Social Media Marketing
+  * Email marketing
+    - Newsletters were implemented in the email notification app. The admin can create a newsletter and send it to all customers using Django EmailMultiAlternatives. It also handles sending newsletters about promo codes and special offers.
+    ![Newsletter image]()
+    ![Promo Codes image]()
+    ![special offer image]()
+  * Paid advertising(Future improvement)
+#### Free Marketing
+* Facebook & Mailchimp
+Facebook is essential for the store to reach customers. According to the statistics, the store has a good reach among people who prefer to use Facebook and many groups related to Thai cuisine, for example, the Thai market and Thai students in the UK.
+#### GDPR(General Data Protection Regulation)
+* Privacy policy & cookie consent is Aimed at a diverse
