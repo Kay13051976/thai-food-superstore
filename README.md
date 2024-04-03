@@ -89,5 +89,20 @@ Newsletter were implemented in the email_notification app.
 #### Free Marketing
 * Facebook & Mailchimp
 Facebook is essential for the store to reach customers. According to the statistics, the store has a good reach among people who prefer to use Facebook and many groups related to Thai cuisine, for example, the Thai market and Thai students in the UK.
+* Instagram
+Instagram is good for promoting products because it is primarily a visual platform and is good for building recognition and trust among followers. Hashtags are crucial for increasing the discoverability of posts on Instagram and can help reach a wider audience and attract users who are interested in Thai food products.
+* Twister
+Twister is a real-time platform where users can engage in conversations, updates, and interact with content. Twitter Moment allows the website to curate and showcase top tweets, images, and videos around specific events, campaigns, special offer, or topics to increase product visibility and engagement, drive website traffic, and generate leads or sales. It also gets feedback from users in real-time.
+
 #### GDPR(General Data Protection Regulation)
 * Privacy policy & cookie consent is Aimed at a diverse
+
+## Future Development
+* Live chat support
+* Sorting products by rating and reviews
+* Third-party registration
+* Payment system
+* Order cancellation
+* Delivery cost calculation
+
+## Technologies used
