@@ -58,7 +58,7 @@ Thai Food Superstore website was created to have straightforward navigation, eye
 |[27]()|As an Admin. I want to be able to send special discounts email notifications, so that I can inform customers about special offers.|
 |[28]()|As an Admin, I want to be able to add promotions so that I can increase sales and enhance customers.|
 |[29]()|As an Admin, I want to be able to be aware of units sold so that I can be aware of sales on a particular product.|
-
+|                   |           |
 ## Business Model
 The business model is B2C, meaning that the company sells products to customers only. It focuses on individual transaction only.
 ## A personal summary of the customer
@@ -75,7 +75,7 @@ The Thai Food Superstore is aimed at those interested in exploring Thai cuisine'
 * Good sales
 ### Web Marketing 
 Newsletter were implemented in the email_notification app.
-#### strategies
+#### Strategies
 * Practical web marketing strategies
   * SEO(Search Engine Optimization)
   * Content marketing
@@ -134,11 +134,11 @@ Twister is a real-time platform where users can engage in conversations, updates
 * JShint
 * PEP8
 * Stripe
-* Sitemap Generatpr
+* Sitemap Generator
 * Privacy Policy Generator
 * Django-extensions
 
-## Featrues
+## Features
 
 ## Design
 ### Color Scheme
@@ -146,12 +146,13 @@ Twister is a real-time platform where users can engage in conversations, updates
 ### Typography
 ### Imagery
 
-## Wireframes
+## Wire frames
 ### Agile Methodology
-#### GitHub Project Mangement
+#### GitHub Project Management
 ![github project issue image]()
 
 ## Flowcharts
+![Login Logout Flowcharts](documentation/login_logout_flowchart.png)
 
 ## Information Architecture
 ### Database
