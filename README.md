@@ -106,3 +106,61 @@ Twister is a real-time platform where users can engage in conversations, updates
 * Delivery cost calculation
 
 ## Technologies used
+### Languages
+* Python 3.12.2
+* JS
+* HTML
+* CSS
+### Framworks and libraries
+* Django
+* jQuery
+* jQuery User Interface
+### Databases
+* PostgreSQL
+
+### Other tools
+* Git
+* Pip3
+* Gunicorn
+* Psycopg2
+* Django-allauth
+* GitHub
+* VSCode
+* Chrome DevTools
+* Font Awesome
+* Coolors
+* W3c Validator
+* W3c CSS Validator
+* JShint
+* PEP8
+* Stripe
+* Sitemap Generatpr
+* Privacy Policy Generator
+* Django-extensions
+
+## Featrues
+
+## Design
+### Color Scheme
+
+### Typography
+### Imagery
+
+## Wireframes
+### Agile Methodology
+#### GitHub Project Mangement
+![github project issue image]()
+
+## Flowcharts
+
+## Information Architecture
+### Database
+#### Entity-Relationship Diagram
+
+### Data Modeling
+
+## Testing
+## Credits
+## Acknowledgments
+
+
