@@ -147,6 +147,8 @@ Twister is a real-time platform where users can engage in conversations, updates
 ### Imagery
 
 ## Wire frames
+* Home page
+![Home page](documentation/wirefreme_homepage.png)
 ### Agile Methodology
 #### GitHub Project Management
 ![github project issue image]()
