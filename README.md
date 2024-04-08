@@ -145,8 +145,11 @@ Twister is a real-time platform where users can engage in conversations, updates
 
 ### Typography
 ### Imagery
-[Logo image](https://www.istockphoto.com/vector/tom-yum-kung-curry-in-white-bowl-on-a-white-background-gm1693572022-537880168)
-
+* [Logo image](https://www.istockphoto.com/vector/tom-yum-kung-curry-in-white-bowl-on-a-white-background-gm1693572022-537880168)
+* [Pad thai image](https://www.istockphoto.com/photo/pad-thai-with-shrimp-and-vegetables-on-table-gm2129520437-567899782)
+* [Float market image](https://www.istockphoto.com/photo/famous-damnoen-saduak-floating-market-in-thailand-farmer-goes-to-sell-organic-gm1469348511-500610238)
+* [Chilli paste image](https://www.istockphoto.com/photo/korean-gochujang-gm1447041218-484956329)
+* [Thai herb image](https://www.istockphoto.com/photo/thai-curry-paste-consisting-of-garlic-birds-eye-chili-pepper-galangal-etc-gm1598818473-530015331)
 ## Wire frames
 * Home page
 ![Home page](documentation/wirefreme_homepage.png)
