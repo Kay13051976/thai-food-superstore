@@ -145,6 +145,7 @@ Twister is a real-time platform where users can engage in conversations, updates
 
 ### Typography
 ### Imagery
+[Logo image](https://www.istockphoto.com/vector/tom-yum-kung-curry-in-white-bowl-on-a-white-background-gm1693572022-537880168)
 
 ## Wire frames
 * Home page

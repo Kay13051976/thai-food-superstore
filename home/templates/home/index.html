@@ -2,5 +2,30 @@
 {% load static %}
 
 {% block content %}
-<h1 class="display-4 text-success">It work</h1>
+<nav class="navbar navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+      <i class="fa-sharp fa-solid fa-bowl-rice"></i>
+      THAI FOOD SUPERSTORE
+    </a>
+    <nav class="navbar navbar-light bg-light">
+        <form class="form-inline">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </nav>
+</nav>
+<ul class="nav justify-content-center">
+    <li class="nav-item">
+      <a class="nav-link active" href="#">SIGN IN / REGISTER</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">ALL PRODUCTS</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">FRESH</a>
+    </li>
+    <li class="nav-item">
+    <li class="nav-item">
+      <a class="nav-link" href="#">HOUSEHOLD ESSENTIALS</a>
+  </ul>
 {% endblock %}
