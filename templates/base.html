@@ -50,35 +50,36 @@
 
 <body>
   <header class="container-fluid fixed-top px-0">
-    <nav class="navbar navbar-light bg-light">
+    <nav class="navbar navbar-light bg-light pt-4">
       <a class="navbar-brand" href="{% url 'home' %}">
-        <h2 class="logo-font text-black my-0">
-          <i class="fa-duotone fa-bowl-rice"></i>
-          <strong>
+        <h1 class="logo-font my-0">
+          <img src="/media/logo-homepage-tom-yum-kung.jpg" width="60" height="50" class="d-inline-block align-top rounded-circle img-thumbnail border-success" alt="">
+          {% comment %} <i class="fa-duotone fa-bowl-rice"></i> {% endcomment %}
+          <strong class="fs-1 mt-5">
             THAI FOOD SUPERSTORE
           </strong>
-        </h2>
+        </h1>
       </a>
       <nav class="navbar navbar-light bg-light">
         <form class="form-inline">
           <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
         </form>
       </nav>
     </nav>
     <ul class="nav justify-content-center bg-light">
       <li class="nav-item">
-        <a class="nav-link active" href="#">SIGN IN / REGISTER</a>
+        <a class="header-nav nav-link active" href="#">SIGN IN / REGISTER</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">ALL PRODUCTS</a>
+        <a class="header-nav nav-link" href="#">ALL PRODUCTS</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">FRESH</a>
+        <a class="header-nav nav-link" href="#">FRESH</a>
       </li>
       <li class="nav-item">
       <li class="nav-item">
-        <a class="nav-link" href="#">HOUSEHOLD ESSENTIALS</a>
+        <a class="header-nav nav-link" href="#">HOUSEHOLD ESSENTIALS</a>
     </ul>
   </header>
   {% if messages %}
