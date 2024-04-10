@@ -150,6 +150,7 @@ Twister is a real-time platform where users can engage in conversations, updates
 * [Float market image](https://www.istockphoto.com/photo/famous-damnoen-saduak-floating-market-in-thailand-farmer-goes-to-sell-organic-gm1469348511-500610238)
 * [Chilli paste image](https://www.istockphoto.com/photo/korean-gochujang-gm1447041218-484956329)
 * [Thai herb image](https://www.istockphoto.com/photo/thai-curry-paste-consisting-of-garlic-birds-eye-chili-pepper-galangal-etc-gm1598818473-530015331)
+* [Green curry image](https://www.istockphoto.com/photo/green-curry-with-chicken-gm619628284-108077649)
 ## Wire frames
 * Home page
 ![Home page](documentation/wirefreme_homepage.png)
