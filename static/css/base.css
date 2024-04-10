@@ -7,33 +7,103 @@ body {
     color: #555;
     font-family: "Roboto";
 }
+ul {
+    list-style: none;
+    padding-left: 0%;
+}
+
 p {
     color: #555;
     font-size: 18px;
 }
+
 h1 {
     color: rgb(21, 193, 27);
 }
+
 .form-control {
-    width:500px;
+    width: 500px;
 }
+
 .header-nav {
     font-size: 20px;
-    color:#000000;
+    color: #000000;
 }
+
 .header-nav:hover {
     text-decoration: underline;
-    color:#555;
+    color: #555;
 }
 
 h4 {
     color: red;
 }
+
 h5 {
-    color:black;
+    color: black;
 }
+.card-container-margin {
+    margin-bottom: 40px;
+}
+
+.card-footer-get-in-touch-social-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    gap: 4em;
+    margin-right: 30px;
+}
+
+.footer-container-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    gap: 6em;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding-left: 0;
+}
+
+.footer-container {
+    padding-bottom: 20px;
+}
+
+.footer-container p {
+    font-size: 24px;
+    color: #f7f9f5;
+    display: block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.footer-container-list i {
+    font-size: 250%;
+    color: #f7f9f5;
+}
+
+.footer-container-list-copy-right {
+    display: flex;
+}
+
+.footer-container-list-copy-right p {
+    margin-left: 10px;
+}
+
 @media (max-width: 991px) {
     h1 {
         font-size: 30px;
     }
+
+    .footer-container-list {
+        flex-direction: column;
+    }
+    .footer-container-card {
+        flex-direction: column;
+    }
+
 }

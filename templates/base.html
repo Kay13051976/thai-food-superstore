@@ -83,6 +83,8 @@
         <a class="header-nav nav-link" href="#">HOUSEHOLD ESSENTIALS</a>
     </ul>
   </header>
+
+
   {% if messages %}
   <div class="message-container"></div>
   {% endif %}
@@ -93,7 +95,106 @@
   {% block content %}
 
   {% endblock %}
+  <footer class="p-5 bg-dark">
+    <div class="row row-cols-1 row-cols-md-3 g-4 footer-container-card">
+      <div class="col">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Get In Touch</h5>
+            <p class="card-text">Thai Food Superstore.co.uk 21 Green Avenue Silsden
+              Keighley West Yorkshire BD 21 9LD</p>
+          </div>
+          <div class="card-footer-get-in-touch">
+            <ul class="card-footer-get-in-touch-social-list">
+              <li>
+                <a href="https://facebook.com" target="_blank" rel="noopener"
+                  aria-label="Visit our Facebook page(open in a new tab)"><i
+                    class="fa-brands fa-square-facebook"></i></a>
+              </li>
+              <li>
+                <a href="https://twitter.com" target="_blank" rel="noopener"
+                  aria-label="Visit our Twitter page(open in a new tab)"><i class="fa-brands fa-square-twitter"></i></a>
+              </li>
+              <li>
+                <a href="https://youtube.com" target="_blank" rel="noopener"
+                  aria-label="Visit our YouTube page(open in a new tab)"><i class="fa-brands fa-square-youtube"></i></a>
+              </li>
+              <li>
+                <a href="https://instagram.com" target="_blank" rel="noopener"
+                  aria-label="Visit our Instagram page(open in a new tab)"><i class="fa-brands fa-instagram"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col ">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Customer Service</h5>
+            <p class="card-text">
+              <ul>
+                <li>
+                  <p>Payment Method
+                  </p>
+                </li>
+                <li>
+                  <p>Shipping & Returns
+                  </p>
+                </li>
+                <li>
+                  <p>Contact Us
+                  </p>
+                </li>
+              </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Information</h5>
+            <p class="card-text">
+              <ul>
+                <li>
+                  <p>General Terms & Conditions
+                  </p>
+                </li>
+                <li>
+                  <p>Data Protection & GDPR
+                  </p>
+                </li>
+              </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-container">
+      <ul class="footer-container-list">
+        <li class="footer-container-list-copy-right">
+          <i class="fa-regular fa-registered"> </i>
+          <p>Thai Food Superstore - All Right Reserved</p>
+        </li>
+        <li>
+          <i class="fa-brands fa-cc-mastercard"></i>
+        </li>
+        <li>
+          <i class="fa-brands fa-cc-paypal"></i>
+        </li>
+        <li>
+          <i class="fa-brands fa-cc-visa"></i>
+        </li>
+        <li>
+          <i class="fa-brands fa-cc-stripe"></i>
+        </li>
+        <li>
+          <i class="fa-brands fa-cc-apple-pay"></i>
+        </li>
+      </ul>
+    </div>
 
+  </footer>
   {% block postloadjs %}
   {% endblock %}
 
