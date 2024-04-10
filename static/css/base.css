@@ -105,5 +105,8 @@ h5 {
     .footer-container-card {
         flex-direction: column;
     }
+    .card-footer-get-in-touch-social-list {
+        flex-direction: column;
+    }
 
 }
