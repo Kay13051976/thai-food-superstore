@@ -20,6 +20,10 @@ p {
 }
 
 /* Header style */
+h1 {
+    color: rgb(21, 193, 27);
+}
+
 
 .header-nav:hover {
     text-decoration: underline;
