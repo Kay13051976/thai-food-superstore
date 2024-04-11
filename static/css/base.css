@@ -124,7 +124,7 @@ h5 {
 }
 
 /* Media Query */
-
+/* Mobile */
 @media (max-width: 991px) {
     h1 {
         font-size: 30px;
@@ -152,6 +152,7 @@ h5 {
     }
 
 }
+/* Tablet */
 @media (max-width: 1024px) {
     .card-footer-get-in-touch-social-media-list {
     gap: 0.5em;
@@ -161,6 +162,7 @@ h5 {
     .footer-container-card {
         flex-direction: column;
         align-items: center;
+        text-align: center;
     }
     .footer-container-list {
         flex-direction: column;

@@ -68,7 +68,7 @@
             <input class="form-control border border-black" type="text" name="q" placeholder="Search"
               aria-label="Search">
             <div class="input-group-append">
-              <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search
+              <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">
                 <span>
                   <i class="fas fa-search"></i>
                 </span>
@@ -106,7 +106,7 @@
             {% if request.user.is_superuser %}
               <a class="dropdown-item" href="#">PRODUCT MANAGEMENT</a>
             {% endif %}
-            <a class="dropdown-item" href="#">PROFILE</a>
+            <a class="dropdown-item" href="#">MY ACCOUNT</a>
             <a class="dropdown-item" href="#">LOGOUT</a>
           {% else %}
             <a class="dropdown-item" href="#">REGISTER</a>
