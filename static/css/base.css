@@ -19,7 +19,7 @@ p {
     color: #555;
 }
 
-/* header style */
+/* Header style */
 h1 {
     color: rgb(21, 193, 27);
 }
@@ -68,6 +68,10 @@ h5 {
     margin-left: 50px;
     margin-right: 50px;
     font-size: 150%;
+}
+
+.card-footer-get-in-touch-social-media-list:hover {
+    color: #e4d7d7;
 }
 
 .footer-container-list {
