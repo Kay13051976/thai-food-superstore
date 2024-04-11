@@ -7,6 +7,7 @@ body {
     color: #555;
     font-family: "Roboto";
 }
+
 ul {
     list-style: none;
     padding-left: 0%;
@@ -14,19 +15,21 @@ ul {
 
 p {
     color: #555;
-    font-size: 18px;
 }
 
 h1 {
     color: rgb(21, 193, 27);
 }
+h3 {
+    color: rgb(10, 129, 14);
 
+}
 .form-control {
     width: 500px;
 }
 
 .header-nav {
-    font-size: 20px;
+    font-size: 17px;
     color: #000000;
 }
 
@@ -37,23 +40,27 @@ h1 {
 
 h4 {
     color: red;
+    font-size: 19px;
 }
 
 h5 {
     color: black;
 }
+
 .card-container-margin {
     margin-bottom: 40px;
 }
 
-.card-footer-get-in-touch-social-list {
+.card-footer-get-in-touch-social-media-list {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     list-style-type: none;
-    gap: 4em;
-    margin-right: 30px;
+    gap: 3em;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 150%;
 }
 
 .footer-container-list {
@@ -65,7 +72,6 @@ h5 {
     gap: 6em;
     margin-top: 60px;
     margin-bottom: 60px;
-    padding-left: 0;
 }
 
 .footer-container {
@@ -102,9 +108,11 @@ h5 {
     .footer-container-list {
         flex-direction: column;
     }
+
     .footer-container-card {
         flex-direction: column;
     }
+
     .card-footer-get-in-touch-social-list {
         flex-direction: column;
     }

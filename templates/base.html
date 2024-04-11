@@ -51,11 +51,11 @@
 <body>
   <header class="container-fluid fixed-top px-0">
     <nav class="navbar navbar-light bg-light pt-4">
-      <a class="navbar-brand" href="{% url 'home' %}">
+      <a class="navbar-brand" href="{% url 'home' %}" rel="noopener"
+        aria-label="Visit our home page(open in a same tab)">
         <h1 class="logo-font my-0">
           <img src="/media/logo-homepage-tom-yum-kung.jpg" width="60" height="50"
             class="d-inline-block align-top rounded-circle img-thumbnail border-success" alt="">
-          {% comment %} <i class="fa-duotone fa-bowl-rice"></i> {% endcomment %}
           <strong class="fs-1 mt-5">
             THAI FOOD SUPERSTORE
           </strong>
@@ -70,17 +70,21 @@
     </nav>
     <ul class="nav justify-content-center bg-light">
       <li class="nav-item">
-        <a class="header-nav nav-link active" href="#">SIGN IN / REGISTER</a>
+        <a class="header-nav nav-link active" href="#" rel="noopener"
+          aria-label="Visit our signin/register page(open in a same tab)">SIGN IN / REGISTER</a>
       </li>
       <li class="nav-item">
-        <a class="header-nav nav-link" href="#">ALL PRODUCTS</a>
+        <a class="header-nav nav-link" href="#" rel="noopener"
+          aria-label="Visit our product page(open in a same tab)">ALL PRODUCTS</a>
       </li>
       <li class="nav-item">
-        <a class="header-nav nav-link" href="#">FRESH</a>
+        <a class="header-nav nav-link" href="#" rel="noopener"
+          aria-label="Visit our fresh friut and vegetables page(open in a same tab)">FRESH</a>
       </li>
       <li class="nav-item">
       <li class="nav-item">
-        <a class="header-nav nav-link" href="#">HOUSEHOLD ESSENTIALS</a>
+        <a class="header-nav nav-link" href="#" rel="noopener"
+          aria-label="Visit our household essentials page(open in a same tab)">HOUSEHOLD ESSENTIALS</a>
     </ul>
   </header>
 
@@ -95,7 +99,7 @@
   {% block content %}
 
   {% endblock %}
-  <footer class="p-5 bg-dark">
+  <footer class="p-5 bg-dark w-100">
     <div class="row row-cols-1 row-cols-md-3 g-4 footer-container-card">
       <div class="col">
         <div class="card h-100">
@@ -105,7 +109,7 @@
               Keighley West Yorkshire BD 21 9LD</p>
           </div>
           <div class="card-footer-get-in-touch">
-            <ul class="card-footer-get-in-touch-social-list">
+            <ul class="card-footer-get-in-touch-social-media-list">
               <li>
                 <a href="https://facebook.com" target="_blank" rel="noopener"
                   aria-label="Visit our Facebook page(open in a new tab)"><i
@@ -127,7 +131,7 @@
           </div>
         </div>
       </div>
-      <div class="col ">
+      <div class="col">
         <div class="card h-100">
           <div class="card-body">
             <h5 class="card-title">Customer Service</h5>
