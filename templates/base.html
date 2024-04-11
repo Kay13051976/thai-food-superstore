@@ -55,38 +55,77 @@
       <a class="navbar-brand" href="{% url 'home' %}" aria-label="Visit our home page(open in a same tab)">
         <h1 class="logo-font my-0">
           <img src="/media/logo-homepage-tom-yum-kung.jpg" width="60" height="50"
-            class="d-inline-block align-top rounded-circle img-thumbnail border-success" alt="a bowl of tomyam soup cartoon">
+            class="d-inline-block align-top rounded-circle img-thumbnail border-success"
+            alt="a bowl of tomyam soup cartoon">
           <strong class="fs-1 mt-5">
             THAI FOOD SUPERSTORE
           </strong>
         </h1>
       </a>
       <nav class="navbar navbar-light bg-light">
-        <form class="form-inline">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+        <form method+"GET" action="">
+          <div class="input-group w-100">
+            <input class="form-control border border-black" type="text" name="q" placeholder="Search"
+              aria-label="Search">
+            <div class="input-group-append">
+              <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search
+                <span>
+                  <i class="fas fa-search"></i>
+                </span>
+              </button>
+            </div>
+          </div>
         </form>
       </nav>
     </nav>
-    <ul class="nav justify-content-center bg-light">
-      <li class="nav-item">
-        <a class="header-nav nav-link active" href="#"
-          aria-label="Visit our signin/register page(open in a same tab)">SIGN IN / REGISTER</a>
-      </li>
-      <li class="nav-item">
-        <a class="header-nav nav-link" href="#" aria-label="Visit our product page(open in a same tab)">ALL PRODUCTS</a>
-      </li>
-      <li class="nav-item">
-        <a class="header-nav nav-link" href="#"
-          aria-label="Visit our fresh friut and vegetables page(open in a same tab)">FRESH</a>
-      </li>
-      <li class="nav-item">
-      <li class="nav-item">
-        <a class="header-nav nav-link" href="#"
-          aria-label="Visit our household essentials page(open in a same tab)">HOUSEHOLD ESSENTIALS</a>
-    </ul>
+    {% comment %} Header nav dropdown {% endcomment %}
+    <div class="d-flex justify-content-center">
+      <div class="btn-group ">
+        <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+          SIGN IN / REGISTER
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">REGISTER</a></li>
+          <li><a class="dropdown-item" href="#">SIGN IN</a></li>
+          <li><a class="dropdown-item" href="#">SIGN OUTe</a></li>
+        </ul>
+      </div>
+      <div class="btn-group">
+        <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+          ALL PRODUCTS
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">CANS</a></li>
+          <li><a class="dropdown-item" href="#">HOUSEHOLD DRUGS</a></li>
+          <li><a class="dropdown-item" href="#">HOUSEHOLD ESSENTIALS</a></li>
+          <li><a class="dropdown-item" href="#">PASTE</a></li>
+          <li><a class="dropdown-item" href="#">RICE AND NOODLE</a></li>
+          <li><a class="dropdown-item" href="#">RESH</a></li>
+          <li><a class="dropdown-item" href="#">SNACK AND CRISPS</a></li>
+          <li><a class="dropdown-item" href="#">SAUCE AND SEASONIGN</a></li>
+        </ul>
+      </div>
+      <div class="btn-group">
+        <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+          FRESH
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">REGISTER</a></li>
+          <li><a class="dropdown-item" href="#">SIGN IN</a></li>
+          <li><a class="dropdown-item" href="#">SIGN OUTe</a></li>
+        </ul>
+      </div>
+      <div class="btn-group">
+        <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+          HOUSEHOLD ESSENTIALS
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">KITCHEN UTENSILS</a></li>
+          <li><a class="dropdown-item" href="#">HOUSEHOLD DRUGS</a></li>
+        </ul>
+      </div>
+    </div>
   </header>
-
 
   {% if messages %}
   <div class="message-container"></div>
@@ -111,21 +150,20 @@
           <div class="card-footer-get-in-touch">
             <ul class="card-footer-get-in-touch-social-media-list">
               <li>
-                <a href="#" target="_blank" rel="noopener"
-                  aria-label="Visit our Facebook page(open in a new tab)"><i
+                <a href="#" target="_blank" rel="noopener" aria-label="Visit our Facebook page(open in a new tab)"><i
                     class="fa-brands fa-square-facebook"></i></a>
               </li>
               <li>
-                <a href="#" target="_blank" rel="noopener"
-                  aria-label="Visit our Twitter page(open in a new tab)"><i class="fa-brands fa-square-twitter"></i></a>
+                <a href="#" target="_blank" rel="noopener" aria-label="Visit our Twitter page(open in a new tab)"><i
+                    class="fa-brands fa-square-twitter"></i></a>
               </li>
               <li>
-                <a href="#" target="_blank" rel="noopener"
-                  aria-label="Visit our YouTube page(open in a new tab)"><i class="fa-brands fa-square-youtube"></i></a>
+                <a href="#" target="_blank" rel="noopener" aria-label="Visit our YouTube page(open in a new tab)"><i
+                    class="fa-brands fa-square-youtube"></i></a>
               </li>
               <li>
-                <a href="#" target="_blank" rel="noopener"
-                  aria-label="Visit our Instagram page(open in a new tab)"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" target="_blank" rel="noopener" aria-label="Visit our Instagram page(open in a new tab)"><i
+                    class="fa-brands fa-instagram"></i></a>
               </li>
             </ul>
           </div>
