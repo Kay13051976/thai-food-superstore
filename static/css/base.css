@@ -43,7 +43,7 @@ h1 {
 .header-shopping-basket-detail p {
     padding-left: 20px;
     font-size: 26px;
-    padding-top: 12px;
+    padding-top: 10px;
 }
 
 /* Main content style */
@@ -136,6 +136,7 @@ h5 {
 
     .footer-container-card {
         flex-direction: column;
+        text-align: center;
     }
 
     .card-footer-get-in-touch-social-media-list {
@@ -150,4 +151,28 @@ h5 {
         margin-top: 130px;
     }
 
+}
+@media (max-width: 1024px) {
+    .card-footer-get-in-touch-social-media-list {
+    gap: 0.5em;
+    flex-direction: column;
+    }
+   
+    .footer-container-card {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-container-list {
+        flex-direction: column;
+    }
+    .main-container {
+        margin-top: 100px;
+    }
+    .aside-container-advert {
+        margin-top: 100px;
+    }
+    }
+
+@media (min-width: 1024px) {
+   
 }
