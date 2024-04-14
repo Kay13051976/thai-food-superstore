@@ -11,7 +11,7 @@ class Product(models.Model):
     description = models.TextField(null=True)
     price = models.DecimalField(max_digits=6, decimal_places=2)
     stock = models.IntegerField()
-    isTrending = models.BooleanField(default=False)
+    is_trending = models.BooleanField(default=False)
     availability = models.SmallIntegerField(choices=AVAILABILITY_CHOICES, default=1)
     image = models.ImageField(null=True, blank=True)
     image_url = models.URLField(max_length=1024, null=True, blank=True)
