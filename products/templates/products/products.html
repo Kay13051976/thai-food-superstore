@@ -11,11 +11,10 @@
 {% endblock %}
 
 {% block content %}
-<div class="overlay">
-</div>
+<div class="overlay"></div>
 <div class="container-fluid">
-    <div class="row"> 
-        <div class="col text-center mt-3">
+  <div class="row"> 
+    <div class="col text-center mt-3">
           <h2 class="logo-font">Cans</h2>
           {% for c in current_categories %}
             <a class="category-badge text-decorotion-none" href="{% url 'products%' %}? category={{ c.name }}">
@@ -24,19 +23,90 @@
           {% endfor %}
           <hr class="w-50 mb-1">
         </div>
-        <div class="row"> 
-      </div>
-    </div>
-    <div class="row">
-      <div class="row m-1 mb-2">
-        <div class="col-12 col-md my-auto order-md-last d-flex justify-conten-center justify-content-md-end">
-          <div class="sort-select-wrapper w-50">
-            <select id="sort-selector" class="custom-select custom-select-sm rounded-0 border border-{% if current-sorting !='None_None' %}info{% else %}black{% endif %}">
-                <option value="reset" {% if current_sorting == 'None_None' %} selected{% endif %}> Sort by...</option>
-            </select>
+  </div>
+  <div class="row">
+        <div class="product-container col-10 offset-1">
+          <div class="row m-1 mb-2">
+            <div class="col-12 col-md my-auto order-md-last d-flex justify-conten-center justify-content-md-end">
+              <div class="sort-select-wrapper w-50">
+                <select id="sort-selector" class="custom-select custom-select-sm rounded-0 border border-{% if current_sorting != 'None_None' %}info{% else %}black{% endif %}">
+                    <option value="reset" {% if current_sorting == 'None_None' %} selected{% endif %}>Sort by...</option>
+                    <option value="category_asc" {% if current_sorting == 'category_asc' %}selected{% endif %}>Category (A-Z)</option>
+                    <option value="category_desc" {% if current_sorting == 'category_desc' %}selected{% endif %}>Category (Z-A)</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 order-md-first">
+              <p class="text-muted mt-3 text-center text-md-left">
+                {% if search_term or current_categories or current_sorting != 'None_None' %}
+                <span class"small"><a href="{% url 'products' %}"></a> | </span>
+                {% endif %}
+                {{ products|length }} Products{% if search_term %} found for 
+                <strong>"{{ searcj_term }}"</strong> {% endif %}
+              </p>
+            </div>
           </div>
-        </div>
+          <div class="row">
+            {% for product in products %}
+              <div class=" col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                <div class="card h-100 border-0">
+                  {% if product.image %}
+                  <a href="">
+                    <img class="card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}">
+                  </a>
+                  {% else %}
+                  <a href="">
+                    <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}" noimage.png alt="{{ product.name }}">
+                  </a>
+                  {% endif %}
+                    <div class="card-body pb-0">
+                      <p class="mb-0">{{ product.name }} </p>
+                    </div>
+                    <div class="card-footer bg-white pt-0 border-0 text-left">
+                      <div class="row">
+                        <div class="col">
+                          <p class="lead mb-0 text-left font-weight-bold">£
+                            {{ product.price }}</p>
+                            {% if product.category %}
+                          <p class="small mt-1 mb-0">
+                            <a class="text-muted" href="{% url 'products' %}?category={{ product.category.name }}">
+                              <i class="fas fa-tag mr-1"></i>{{ product.category.friendly_name }}
+                            </a>
+                          </p>
+                          {% endif %}
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+                {% if forloop.counter|divisibleby:1 %}
+                  <div class="col-12 d-sm-none mb-5">
+                    <hr>
+                  </div>
+                {% endif %}
+                {% if forloop.counter|divisibleby:2 %}
+                  <div class="col-12 d-none d-sm-block d-md-block d-lg-none mb-5">
+                    <hr>
+                  </div>
+                {% endif %}
+                {% if forloop.counter|divisibleby:3 %}
+                  <div class="col-12 d-none d-lg-block d-xl-none mb-5">
+                    <hr>
+                  </div>
+                {% endif %}
+                {% if forloop.counter|divisibleby:4 %}
+                  <div class="col-12 d-xl-block mb-5">
+                    <hr>
+                  </div>
+                {% endif %}
+              {% endfor %}
+          </div>
       </div>
     </div>
+</div>
+<div class="btt-button shadoe-sm rounded-0 border border-black">
+  <a class="btt-link d-flex h-100">
+    <i calss="fas fa-arrow-up text-black mx-auto my-auto"></i>
+  </a>
 </div>
 {% endblock %}
