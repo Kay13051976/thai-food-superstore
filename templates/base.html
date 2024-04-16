@@ -120,15 +120,15 @@
           PRODUCTS
         </button>
         <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="{% url "products" %}">ALL PRODUCTS</a></li>
-          <li><a class="dropdown-item" href="#">FRESH</a></li>
-          <li><a class="dropdown-item" href="#">CANS</a></li>
-          <li><a class="dropdown-item" href="#">HOUSEHOLD DRUGS</a></li>
-          <li><a class="dropdown-item" href="#">KITCHEN UTENSILS</a></li>
-          <li><a class="dropdown-item" href="#">PASTE</a></li>
-          <li><a class="dropdown-item" href="#">RICE AND NOODLE</a></li>
-          <li><a class="dropdown-item" href="#">SAUCE AND SEASONIGN</a></li>
-          <li><a class="dropdown-item" href="#">SNACK AND CRISPS</a></li>
+          <li><a class="dropdown-item" href="{% url 'products' %}">ALL PRODUCTS</a></li>
+          <li><a class="dropdown-item" href="{% url 'products' %}?category=fresh">FRESH</a></li>
+          <li><a class="dropdown-item" href="{% url 'products' %}?category=cans">CANS</a></li>
+          <li><a class="dropdown-item" href="{% url 'products' %}?category=household,drugs">HOUSEHOLD DRUGS</a></li>
+          <li><a class="dropdown-item" href="{% url 'products' %}?category=kitchen,utensils">KITCHEN UTENSILS</a></li>
+          <li><a class="dropdown-item" href="{% url 'products' %}?category=paste">PASTE</a></li>
+          <li><a class="dropdown-item" href="{% url 'products' %}?category=rice,noodle">RICE AND NOODLE</a></li>
+          <li><a class="dropdown-item" href="{% url 'products' %}?category=sauce,seasoning">SAUCE AND SEASONING</a></li>
+          <li><a class="dropdown-item" href="{% url 'products' %}?category=snack,crisps">SNACK AND CRISPS</a></li>
 
         </ul>
       </div>
