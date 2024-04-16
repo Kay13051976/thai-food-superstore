@@ -12,9 +12,9 @@
 
 {% block content %}
 <div class="overlay"></div>
-<div class="container-fluid">
-  <div class="row"> 
-    <div class="col text-center mt-3">
+<div class="container-fluid mt-5 pt-5">
+  <div class="row mt-5"> 
+    <div class="col text-center mt-5">
           <h2 class="logo-font">Cans</h2>
           {% for c in current_categories %}
             <a class="category-badge text-decorotion-none" href="{% url 'products%' %}? category={{ c.name }}">
