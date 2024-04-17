@@ -25,14 +25,14 @@
       </button>
       <ul class="dropdown-menu">
         <li><a class="dropdown-item" href="{% url 'products' %}">ALL PRODUCTS</a></li>
-        <li><a class="dropdown-item" href="{% url 'products' %}?category=fresh">FRESH</a></li>
+        <li><a class="dropdown-item" href="{% url 'products' %}">FRESH</a></li>
         <li><a class="dropdown-item" href="{% url 'products' %}?category=cans">CANS</a></li>
-        <li><a class="dropdown-item" href="{% url 'products' %}?category=household,drugs">HOUSEHOLD DRUGS</a></li>
-        <li><a class="dropdown-item" href="{% url 'products' %}?category=kitchen,utensils">KITCHEN UTENSILS</a></li>
-        <li><a class="dropdown-item" href="{% url 'products' %}?category=paste">PASTE</a></li>
-        <li><a class="dropdown-item" href="{% url 'products' %}?category=rice,noodle">RICE AND NOODLE</a></li>
-        <li><a class="dropdown-item" href="{% url 'products' %}?category=sauce,seasoning">SAUCE AND SEASONING</a></li>
-        <li><a class="dropdown-item" href="{% url 'products' %}?category=snack,crisps">SNACK AND CRISPS</a></li>
+        <li><a class="dropdown-item" href="{% url 'products' %}">HOUSEHOLD DRUGS</a></li>
+        <li><a class="dropdown-item" href="{% url 'products' %}">KITCHEN UTENSILS</a></li>
+        <li><a class="dropdown-item" href="{% url 'products' %}">PASTE</a></li>
+        <li><a class="dropdown-item" href="{% url 'products' %}">RICE AND NOODLE</a></li>
+        <li><a class="dropdown-item" href="{% url 'products' %}">SAUCE AND SEASONING</a></li>
+        <li><a class="dropdown-item" href="{% url 'products' %}">SNACK AND CRISPS</a></li>
 
       </ul>
     </div>
@@ -42,18 +42,18 @@
         FRESH
       </button>
       <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="#">FRUIT</a></li>
-        <li><a class="dropdown-item" href="#">VEGETABLE</a></li>
+        <li><a class="dropdown-item" href="{% url 'products' %}">FRUIT</a></li>
+        <li><a class="dropdown-item" href="{% url 'products' %}">VEGETABLE</a></li>
       </ul>
     </div>
     <div class="btn-group">
       <button type="button" class="btn btn-light" data-toggle="dropdown" aria-expanded="true"
         aria-expanded="false">
-        HOUSEHOLD ESSENTIALS
+        SPECIAL OFFERS
       </button>
       <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="#">KITCHEN UTENSILS</a></li>
-        <li><a class="dropdown-item" href="#">HOUSEHOLD DRUGS</a></li>
+        <li><a class="dropdown-item" href="{% url 'products' %}">SPECIAL OFFER DISCOUNTS</a></li>
+        <li><a class="dropdown-item" href="{% url 'products' %}">CLEARANCE PRODUCTS</a></li>
       </ul>
     </div>
   </div>
