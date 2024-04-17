@@ -69,7 +69,10 @@ h5 {
 .card-container-margin {
     margin-bottom: 40px;
 }
-
+.home-page-down-to-top-button {
+    font-size: 350%;
+    padding-right: 40px;
+}
 /* Footer style */
 .card-footer-get-in-touch-social-media-list {
     display: flex;
