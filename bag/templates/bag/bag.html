@@ -9,8 +9,36 @@
 </div>
 
 {% endblock %}
-
 {% block content %}
+<div class="overlay"></div>
+<div class="bag-container">
+<div class="container mb-2 my-5 pt-5">
+    <div class="row">
+        <div class="col">
+            <h2 class="logo-font mb-4 text-center">Shopping Basket</h2>
+            <hr>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            {% if bag_item %}
+            <div class="table-reponsiv rounded"></div>
+            {% else %}
+            <p class="lead mb-5 text-right pr-4">Your bag is empty.</p>
+            <div class="d-flex justify-content-end">
+                <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 btn-lg">
+                    <span class="icon"> 
+                        <i class="fa-light fa-basket-shopping-simple"></i>
+                    </span>
+                    <span class="text-uppercase text-right">Keep Shopping </span>
+                </a>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+</div>
+
 
 
 {% endblock %}

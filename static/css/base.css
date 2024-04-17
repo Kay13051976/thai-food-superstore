@@ -237,3 +237,7 @@ h5 {
         height: calc(100vh - 116px);
     }
 }
+/* bag style */
+.bag-container {
+    margin-top: 200px;
+}
