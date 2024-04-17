@@ -32,7 +32,7 @@ h1 {
 }
 
 .header-shopping-basket {
-    font-size: 200%;
+    font-size: 180%;
     margin-right: 30px;
 }
 
@@ -43,7 +43,7 @@ h1 {
 
 .header-shopping-basket-detail p {
     padding-left: 20px;
-    font-size: 26px;
+    font-size: 22px;
     padding-top: 10px;
 }
 
@@ -69,10 +69,12 @@ h5 {
 .card-container-margin {
     margin-bottom: 40px;
 }
+
 .home-page-down-to-top-button {
     font-size: 350%;
     padding-right: 40px;
 }
+
 /* Footer style */
 .card-footer-get-in-touch-social-media-list {
     display: flex;
@@ -216,7 +218,7 @@ h5 {
 
 /* product_detail.html style */
 .product-details-container-content-p1 {
-    margin-top: 250px;
+    margin-top: 224px;
 }
 
 @media (max-width: 991px) {
@@ -225,19 +227,43 @@ h5 {
         padding-top: 116px;
     }
 
+    .product-details {
+        margin-top: 20px;
+        align-content: center;
+    }
+
     .product-details-container-content {
-        padding-bottom: 200px;
+        padding-bottom: 0;
     }
 
     .product-details-container-content-p1 {
-        padding-top: 100px;
+        margin-top: 0;
     }
 
     body {
         height: calc(100vh - 116px);
     }
 }
+
 /* bag style */
 .bag-container {
     margin-top: 200px;
+}
+
+.btn-outline-white {
+    background: #4b7bff;
+    color: white !important;
+}
+
+.btn-outline-black {
+    background: white;
+    color: black !important;
+    border: 1px solid black;
+}
+
+.btn-outline-black:hover,
+.btn-outline-black:active,
+.btn-outline-black:focus {
+    background: rgb(21, 193, 27);
+    color: white !important;
 }
