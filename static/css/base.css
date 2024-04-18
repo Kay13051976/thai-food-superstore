@@ -255,6 +255,10 @@ h5 {
     color: white !important;
 }
 
+.btn-outline-white:hover {
+    background: #97ade9;
+}
+
 .btn-outline-black {
     background: white;
     color: black !important;
