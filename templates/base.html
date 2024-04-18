@@ -78,14 +78,14 @@
         </form>
       </nav>
       <div class="header-shopping-basket">
-      <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link header-shopping-basket-detail" href="{% url 'view_bag' %}" aria-label="Visit our grand total page(open in a same tab)">
+      <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link header-shopping-basket-detail" href="{% url 'view_bag' %}">
         <div>
           <i class="fa-sharp fa-regular fa-basket-shopping-minus"></i>
         </div>
         <div>
           <p>
             {% if grand_total %}
-              ${{ grand_total|floatformat:2 }}
+              £{{ grand_total|floatformat:2 }}
             {% else %}
               £0.00
             {% endif %}
@@ -100,6 +100,7 @@
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
           </button>
+          {% include 'includes/mobile-top-header.html' %}
           {% include 'includes/main-nav.html' %}
       </nav>
   </div>
