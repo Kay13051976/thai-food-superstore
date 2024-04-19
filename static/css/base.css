@@ -19,6 +19,11 @@ ul {
 p {
     color: #555;
 }
+.btt-link,
+.update-link,
+.remove-item {
+    cursor: pointer;
+}
 
 /* Header style */
 h1 {
