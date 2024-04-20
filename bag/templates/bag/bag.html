@@ -43,6 +43,12 @@
                             </td>
                             <td class="py-3">
                                 <p class="my-0">{{ item.product.price }}</p>
+                            </td>
+                            <td class="py-3">
+                                <p class="my-0">{{ item.quatity }}</p>
+                            </td> 
+                            <td class="py-3">
+                                <p class="my-0">{{ item.product.price }}</p>
                             </td> 
                             <td class="py-3">
                                 <form class="form update-form" method="POST" action="{% url 'adjust_bag' item.item_id %}">
