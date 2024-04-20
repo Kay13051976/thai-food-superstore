@@ -25,6 +25,7 @@ class Product(models.Model):
     name = models.CharField(max_length=255)
     slug = models.SlugField(null=True)
     description = models.TextField(null=True)
+    has_sizes = models.BooleanField(default=False, null=True, blank=True)
     price = models.DecimalField(max_digits=6, decimal_places=2)
     stock = models.IntegerField()
     is_trending = models.BooleanField(default=False)
