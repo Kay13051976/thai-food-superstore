@@ -155,11 +155,8 @@ Twister is a real-time platform where users can engage in conversations, updates
 * Home page wire frames
 ![Home page](documentation/wirefreme_homepage.png)
 * Home page UI
-![Home page 1](documentation/home_page_image_1.png)
-![Home page 2](documentation/home_page_image_2.png)
-![Home page 3](documentation/home_page_image_3.png)
-![Home page 4](documentation/home_page_image_4.png)
-![Home page 5](documentation/home_page_image_5.png)
+![Home page 1](documentation/home_page_image_ui.png)
+
 
 
 * Fruits and Vegetable page
