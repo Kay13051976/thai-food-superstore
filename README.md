@@ -1,6 +1,6 @@
 # Thai-Food-Superstore
 ### Deployed website:[ Link to website]()
-![front page image]()
+![Front page image](documentation/home_page_image_1.png)
 
 
 ### card number for payment testing: 4242 4242 4242 4242
@@ -151,9 +151,16 @@ Twister is a real-time platform where users can engage in conversations, updates
 * [Chilli paste image](https://www.istockphoto.com/photo/korean-gochujang-gm1447041218-484956329)
 * [Thai herb image](https://www.istockphoto.com/photo/thai-curry-paste-consisting-of-garlic-birds-eye-chili-pepper-galangal-etc-gm1598818473-530015331)
 * [Green curry image](https://www.istockphoto.com/photo/green-curry-with-chicken-gm619628284-108077649)
-## Wire frames
-* Home page
+## Wire frames And UI
+* Home page wire frames
 ![Home page](documentation/wirefreme_homepage.png)
+* Home page UI
+![Home page 1](documentation/home_page_image_1.png)
+![Home page 2](documentation/home_page_image_2.png)
+![Home page 3](documentation/home_page_image_3.png)
+![Home page 4](documentation/home_page_image_4.png)
+![Home page 5](documentation/home_page_image_5.png)
+
 
 * Fruits and Vegetable page
 ![Fruit and vegetable page](documentation/fruits_and_vegetable_page.png)
