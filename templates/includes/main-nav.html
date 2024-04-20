@@ -1,26 +1,25 @@
 <div class="collapse navbar-collapse justify-content-center bg-light" id="main-nav">
 <div class="d-flex bg-light header-nav-dropdown">
     <div class="btn-group ">
-      <button type="button" class="btn btn-light" data-toggle="dropdown" aria-expanded="true"
-        aria-expanded="false">
+      <button type="button" class="btn btn-light" data-toggle="dropdown"
+        aria-expanded="true">
         LOGIN / REGISTER
       </button>
       <ul class="dropdown-menu">
         {% if request.user.is_authenticated %}
           {% if request.user.is_superuser %}
-            <a class="dropdown-item" href="#">PRODUCT MANAGEMENT</a>
+          <li><a class="dropdown-item" href="#">PRODUCT MANAGEMENT</a></li>
           {% endif %}
-          <a class="dropdown-item" href="#">MY ACCOUNT</a>
-          <a class="dropdown-item" href="#">LOGOUT</a>
+          <li><a class="dropdown-item" href="#">MY ACCOUNT</a></li>
+          <li><a class="dropdown-item" href="#">LOGOUT</a></li>
         {% else %}
-          <a class="dropdown-item" href="#">REGISTER</a>
-          <a class="dropdown-item" href="#">LOGIN</a>
+          <li><a class="dropdown-item" href="#">REGISTER</a></li>
+          <li><a class="dropdown-item" href="#">LOGIN</a></li>
         {% endif %}
       </ul>
     </div>
     <div class="btn-group">
-      <button type="button" class="btn btn-light" data-toggle="dropdown" aria-expanded="true"
-        aria-expanded="false">
+      <button type="button" class="btn btn-light" data-toggle="dropdown" aria-expanded="true">
         PRODUCTS
       </button>
       <ul class="dropdown-menu">
@@ -37,8 +36,7 @@
       </ul>
     </div>
     <div class="btn-group">
-      <button type="button" class="btn btn-light" data-toggle="dropdown" aria-expanded="true"
-        aria-expanded="false">
+      <button type="button" class="btn btn-light" data-toggle="dropdown" aria-expanded="true">
         FRESH
       </button>
       <ul class="dropdown-menu">
@@ -47,8 +45,7 @@
       </ul>
     </div>
     <div class="btn-group">
-      <button type="button" class="btn btn-light" data-toggle="dropdown" aria-expanded="true"
-        aria-expanded="false">
+      <button type="button" class="btn btn-light" data-toggle="dropdown" aria-expanded="true">
         SPECIAL OFFERS
       </button>
       <ul class="dropdown-menu">
