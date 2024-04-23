@@ -255,13 +255,12 @@ h5 {
     margin-top: 200px;
 }
 
-.btn-outline-white {
-    background: #4b7bff;
-    color: white !important;
-}
 
-.btn-outline-white:hover {
-    background: #97ade9;
+.btn-outline-white:hover,
+.btn-outline-white:active,
+.btn-outline-white:focus {
+    background:  #4b7bff;
+    color: white !important;
 }
 
 .btn-outline-black {
