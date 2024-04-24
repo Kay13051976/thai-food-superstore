@@ -1,57 +1,62 @@
 <div class="collapse navbar-collapse justify-content-center bg-light" id="main-nav">
-<div class="d-flex bg-light header-nav-dropdown">
-    <div class="btn-group ">
-      <button type="button" class="btn btn-light" data-toggle="dropdown"
-        aria-expanded="true">
-        LOGIN / REGISTER
-      </button>
-      <ul class="dropdown-menu">
-        {% if request.user.is_authenticated %}
-          {% if request.user.is_superuser %}
-          <li><a class="dropdown-item" href="#">PRODUCT MANAGEMENT</a></li>
+  <div class="d-flex bg-light header-nav-dropdown">
+      <div class="btn-group ">
+        <button type="button" class="btn btn-light" data-toggle="dropdown"
+          aria-expanded="true">
+          LOGIN / REGISTER
+        </button>
+        <ul class="dropdown-menu">
+          {% if request.user.is_authenticated %}
+            {% if request.user.is_superuser %}
+            <li><a class="dropdown-item" href="#">PRODUCT MANAGEMENT</a></li>
+            {% endif %}
+            <li><a class="dropdown-item" href="#">MY ACCOUNT</a></li>
+            <li><a class="dropdown-item" href="#">LOGOUT</a></li>
+          {% else %}
+            <li><a class="dropdown-item" href="#">REGISTER</a></li>
+            <li><a class="dropdown-item" href="#">LOGIN</a></li>
           {% endif %}
-          <li><a class="dropdown-item" href="#">MY ACCOUNT</a></li>
-          <li><a class="dropdown-item" href="#">LOGOUT</a></li>
-        {% else %}
-          <li><a class="dropdown-item" href="#">REGISTER</a></li>
-          <li><a class="dropdown-item" href="#">LOGIN</a></li>
-        {% endif %}
-      </ul>
-    </div>
-    <div class="btn-group">
-      <button type="button" class="btn btn-light" data-toggle="dropdown" aria-expanded="true">
-        PRODUCTS
-      </button>
-      <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="{% url 'products' %}">ALL PRODUCTS</a></li>
-        <li><a class="dropdown-item" href="{% url 'products' %}?category=fresh">FRESH</a></li>
-        <li><a class="dropdown-item" href="{% url 'products' %}?category=cans">CANS</a></li>
-        <li><a class="dropdown-item" href="{% url 'products' %}?category=household_drugs">HOUSEHOLD DRUGS</a></li>
-        <li><a class="dropdown-item" href="{% url 'products' %}?category=kitchen_utensils">KITCHEN UTENSILS</a></li>
-        <li><a class="dropdown-item" href="{% url 'products' %}?category=paste">PASTE</a></li>
-        <li><a class="dropdown-item" href="{% url 'products' %}?category=rice_and_noodle">RICE AND NOODLE</a></li>
-        <li><a class="dropdown-item" href="{% url 'products' %}?category=sauce_and_seasoning">SAUCE AND SEASONING</a></li>
-        <li><a class="dropdown-item" href="{% url 'products' %}?category=snack_and_crisps">SNACK AND CRISPS</a></li>
-
-      </ul>
-    </div>
-    <div class="btn-group">
-      <button type="button" class="btn btn-light" data-toggle="dropdown" aria-expanded="true">
-        FRESH
-      </button>
-      <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="{% url 'products' %}?category=fresh">FRUIT</a></li>
-        <li><a class="dropdown-item" href="{% url 'products' %}?category=fresh">VEGETABLE</a></li>
-      </ul>
-    </div>
-    <div class="btn-group">
-      <button type="button" class="btn btn-light" data-toggle="dropdown" aria-expanded="true">
-        SPECIAL OFFERS
-      </button>
-      <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="{% url 'products' %}?category=special_offer_discount">SPECIAL OFFER DISCOUNTS</a></li>
-        <li><a class="dropdown-item" href="{% url 'products' %}?category=clearance">CLEARANCE PRODUCTS</a></li>
-      </ul>
+        </ul>
+      </div>
+      <div class="btn-group">
+        <button type="button" class="btn btn-light" data-toggle="dropdown" aria-expanded="true">
+          PRODUCTS
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="{% url 'products' %}">ALL PRODUCTS</a></li>
+          <li><a class="dropdown-item" href="{% url 'products' %}?category=fresh">FRESH</a></li>
+          <li><a class="dropdown-item" href="{% url 'products' %}?category=cans">CANS</a></li>
+          <li><a class="dropdown-item" href="{% url 'products' %}?category=household_drugs">HOUSEHOLD DRUGS</a></li>
+          <li><a class="dropdown-item" href="{% url 'products' %}?category=kitchen_utensils">KITCHEN UTENSILS</a></li>
+          <li><a class="dropdown-item" href="{% url 'products' %}?category=paste">PASTE</a></li>
+          <li><a class="dropdown-item" href="{% url 'products' %}?category=rice_and_noodle">RICE AND NOODLE</a></li>
+          <li><a class="dropdown-item" href="{% url 'products' %}?category=sauce_and_seasoning">SAUCE AND SEASONING</a></li>
+          <li><a class="dropdown-item" href="{% url 'products' %}?category=snack_and_crisps">SNACK AND CRISPS</a></li>
+  
+        </ul>
+      </div>
+      <div class="btn-group">
+        <button type="button" class="btn btn-light" data-toggle="dropdown" aria-expanded="true">
+          FRESH
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="{% url 'products' %}?category=fresh">FRUIT</a></li>
+          <li><a class="dropdown-item" href="{% url 'products' %}?category=fresh">VEGETABLE</a></li>
+        </ul>
+      </div>
+      <div class="btn-group">
+        <button type="button" class="btn btn-light" data-toggle="dropdown" aria-expanded="true">
+          SPECIAL OFFERS
+        </button>
+        <a href="{% url 'letter-index' %}" class="btn btn-light"  >
+          SUBSCIBE NEWSLETTER
+        </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="{% url 'products' %}?category=special_offer_discount">SPECIAL OFFER DISCOUNTS</a></li>
+          <li><a class="dropdown-item" href="{% url 'products' %}?category=clearance">CLEARANCE PRODUCTS</a></li>
+  
+        </ul>
+      </div>
     </div>
   </div>
-</div>
+ 
