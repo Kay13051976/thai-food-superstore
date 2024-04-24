@@ -45,6 +45,9 @@ INSTALLED_APPS = [
     'home',
     'products',
     'bag',
+    'letter.apps.LetterConfig',
+    'crispy_forms',
+    'crispy_bootstrap4'
     
 ]
 
