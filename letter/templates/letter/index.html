@@ -1,8 +1,6 @@
 {% extends 'partials/base.html' %}
 {% block title %}Home Page {% endblock %}
 
-{% load crispy_forms_tags %}
-
 {% block content %}
 <div class="container">
     <div class="row mt-5 pt-5">
@@ -16,9 +14,16 @@
                 <div class="card-body">
                     <h3>Subscribe to Newsletter</h3>
                     <hr>
-                    <form method="POST">
-                        {% csrf_token %}
-                        {{ form|crispy }}
+                    <form method="GET" action="{% url 'letter-index' %}" >
+
+                        <div id="div_id_email" class="form-group">
+<label for="id_email" class=" requiredField">
+                Email<span class="asteriskField">*</span>
+</label>
+<div>
+<input type="email" required name="subscribemail" maxlength="254" class="emailinput form-control" required="" id="id_email">
+</div> </div>
+
                         <input class="btn btn-info btn-block" type="submit" value="Subscribe">
                     </form>
                 </div>

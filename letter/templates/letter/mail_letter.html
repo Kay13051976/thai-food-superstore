@@ -1,7 +1,6 @@
 {% extends 'partials/base.html' %}
 {% block title %}Mail Page {% endblock %}
 
-{% load crispy_forms_tags %}
 {% block content %}
 <div class="container">
     <div class="row mt-5 pt-5">
@@ -13,9 +12,25 @@
             {% endfor %}
             <div class="card">
                 <div class="card-body">
-                    <form method="POST">
-                        {% csrf_token %}
-                        {{ form|crispy }}
+                    <form method="GET" action="{% url 'mail-letter' %}" >
+
+                        <div id="div_id_title" class="form-group">
+<label for="id_title" class=" requiredField">
+                Title<span class="asteriskField">*</span>
+</label>
+<div>
+<input type="text" required name="titleletter" maxlength="100" class="textinput form-control" required="" id="id_title">
+</div> </div>
+                    <div id="div_id_message" class="form-group">
+<label for="id_message" class=" requiredField">
+                Message<span class="asteriskField">*</span>
+</label>
+<div>
+<textarea required name="messageletter" cols="40" rows="10" class="textarea form-control" required="" id="id_message"></textarea>
+</div> </div>
+
+
+
                         <input class="btn btn-info btn-block" type="submit" value="Send Message">
                     </form>
                 </div>
