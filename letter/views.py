@@ -1,3 +1,4 @@
+
 from django.shortcuts import render, redirect , reverse, get_object_or_404
 from . models import Subscribers,MailMessage
 from django.contrib import messages
@@ -21,7 +22,7 @@ def index(request):
     context = {
         'Subscribers': Subscribers,
     }
-    return render(request, 'letter/index.html', context)
+    return render(request, 'letter/letter.html', context)
 
 
 def mail_letter(request):
@@ -68,3 +69,5 @@ def mail_letter(request):
         'MailMessage': MailMessage,
     }
     return render(request, 'letter/mail_letter.html', context)
+views.py
+Displaying views.py.
