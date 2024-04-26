@@ -14,8 +14,6 @@ import os
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
-from django.conf.global_settings import EMAIL_USE_SSL, EMAIL_USE_TLS
-
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
@@ -28,7 +26,7 @@ SECRET_KEY = 'django-insecure-(4sam#^_zp7n_is%+^p%g@r(ha!2_#cy7p$wkeub7vno%&4dqb
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-kay13051976-thaifoodsup-0pxf5by5xym.ws-eu110.gitpod.io','127.0.0.1','127.0.0.1:8000', 'localhost','*' ]
+ALLOWED_HOSTS = ['8000-kay13051976-thaifoodsup-0pxf5by5xym.ws-eu110.gitpod.io','127.0.0.1','127.0.0.1:8000', 'localhost','*']
 
 
 # Application definition
@@ -48,12 +46,6 @@ INSTALLED_APPS = [
     'products',
     'bag',
     'letter.apps.LetterConfig',
-    'crispy_forms',
-    'crispy_bootstrap4'
-
-
-
-    
 ]
 
 MIDDLEWARE = [
@@ -142,7 +134,6 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
@@ -161,13 +152,14 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
-STATIC_URL = '/static/'
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.hostinger.com'
 EMAIL_USE_SSL = True
 EMAIL_PORT = 465
 EMAIL_HOST_USER = 'testsmtpmail@sns-autotransport.com' #Enter your email
 EMAIL_HOST_PASSWORD = 'gL29YHRjv2YV8fZ7@' #Enter the password to the email
+
+STATIC_URL = '/static/'
 STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 
 MEDIA_URL = '/media/'
@@ -180,5 +172,3 @@ STANDARD_DELIVERY_PERCENTAGE = 10
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
-#pip install django-pandas
