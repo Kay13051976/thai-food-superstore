@@ -26,7 +26,8 @@ SECRET_KEY = 'django-insecure-(4sam#^_zp7n_is%+^p%g@r(ha!2_#cy7p$wkeub7vno%&4dqb
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-kay13051976-thaifoodsup-0pxf5by5xym.ws-eu110.gitpod.io','127.0.0.1','127.0.0.1:8000', 'localhost','*']
+ALLOWED_HOSTS = ['8000-kay13051976-thaifoodsup-0pxf5by5xym.ws-eu110.gitpod.io',
+                 '127.0.0.1', '127.0.0.1:8000', 'localhost', '*']
 
 
 # Application definition
@@ -156,8 +157,8 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.hostinger.com'
 EMAIL_USE_SSL = True
 EMAIL_PORT = 465
-EMAIL_HOST_USER = 'testsmtpmail@sns-autotransport.com' #Enter your email
-EMAIL_HOST_PASSWORD = 'gL29YHRjv2YV8fZ7@' #Enter the password to the email
+EMAIL_HOST_USER = 'testsmtpmail@sns-autotransport.com'  # Enter your email
+EMAIL_HOST_PASSWORD = 'gL29YHRjv2YV8fZ7@'  # Enter the password to the email
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
