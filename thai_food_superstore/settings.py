@@ -26,6 +26,11 @@ SECRET_KEY = 'django-insecure-(4sam#^_zp7n_is%+^p%g@r(ha!2_#cy7p$wkeub7vno%&4dqb
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+CSRF_TRUSTED_ORIGINS = ['http://8000-kay13051976-thaifoodsup-0pxf5by5xym.ws-eu110.gitpod.io',
+                        'http://127.0.0.1', 'http://127.0.0.1:8000', 'http://localhost', 'http://*']
+CORS_ORIGIN_WHITELIST = ['http://8000-kay13051976-thaifoodsup-0pxf5by5xym.ws-eu110.gitpod.io',
+                         'http://127.0.0.1', 'http://127.0.0.1:8000', 'http://localhost', 'http://*']
+
 ALLOWED_HOSTS = ['8000-kay13051976-thaifoodsup-0pxf5by5xym.ws-eu110.gitpod.io',
                  '127.0.0.1', '127.0.0.1:8000', 'localhost', '*']
 
@@ -57,6 +62,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'allauth.account.middleware.AccountMiddleware',
 ]
 
 ROOT_URLCONF = 'thai_food_superstore.urls'
