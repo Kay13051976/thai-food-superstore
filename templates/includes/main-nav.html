@@ -48,10 +48,10 @@
         <button type="button" class="btn btn-light" data-toggle="dropdown" aria-expanded="true">
           SPECIAL OFFERS
         </button>
-        <a href="{% url 'letter-index' %}" class="btn btn-light"  >
+        <a href="{% url 'letter-index' %}" class="btn btn-light subscribe-newsletter">
           SUBSCIBE NEWSLETTER
         </a>
-        <a class="btn btn-light" href="{% url 'mail-letter' %}">MAIL <span class="sr-only">(current)</span></a>
+        <a class="btn btn-light mail-nav" href="{% url 'mail-letter' %}">MAIL <span class="sr-only">(current)</span></a>
         <ul class="dropdown-menu">
           <li><a class="dropdown-item" href="{% url 'products' %}?category=special_offer_discount">SPECIAL OFFER DISCOUNTS</a></li>
           <li><a class="dropdown-item" href="{% url 'products' %}?category=clearance">CLEARANCE PRODUCTS</a></li>
