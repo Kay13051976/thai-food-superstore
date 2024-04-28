@@ -52,11 +52,14 @@
           <li><a class="dropdown-item" href="{% url 'products' %}?category=special_offer_discounts">SPECIAL OFFER DISCOUNTS</a></li>
           <li><a class="dropdown-item" href="{% url 'products' %}?category=clearance_products">CLEARANCE PRODUCTS</a></li>
         </ul>
-        <a href="{% url 'letter-index' %}" class="btn btn-light subscribe-newsletter">
-          SUBSCIBE NEWSLETTER
-        </a>
-        <a class="btn btn-light mail-nav" href="{% url 'mail-letter' %}">MAIL <span class="sr-only">(current)</span></a>
-       
+      </div>
+      <div class="btn-group">
+          <a href="{% url 'letter-index' %}" class="btn btn-light subscribe-newsletter">
+            SUBSCIBE NEWSLETTER
+          </a>
+      </div>
+      <div class="btn-group">
+          <a class="btn btn-light mail-nav" href="{% url 'mail-letter' %}">MAIL <span class="sr-only">(current)</span></a>
       </div>
     </div>
   </div>
