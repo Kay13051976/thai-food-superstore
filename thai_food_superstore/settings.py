@@ -52,6 +52,7 @@ INSTALLED_APPS = [
     'products',
     'bag',
     'letter.apps.LetterConfig',
+    'recipes',
 ]
 
 MIDDLEWARE = [
