@@ -56,6 +56,12 @@ h1 {
     font-size: 22px;
 }
 
+/* Shopping basket header style */
+.shopping-basket-header {
+    color:  #4b7bff;
+    font-size: 38px;
+
+}
 /* Main content style */
 .main-container {
     background-color: #f8f9fa;

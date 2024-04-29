@@ -15,7 +15,7 @@
 <div class="container mb-2 my-5 pt-5">
     <div class="row">
         <div class="col">
-            <h2 class="logo-font mb-4 text-center">Shopping Basket</h2>
+            <h2 class="logo-font mb-4 text-center shopping-basket-header">Shopping Basket</h2>
             <hr>
         </div>
     </div>
@@ -76,6 +76,9 @@
                                                     </span>
                                                 </button>
                                             </div>
+                                            {% if item.product.has_sizes %}
+                                                <input type="hidden" name="product_size" value="{{ item.size }}">
+                                            {% endif %}
                                         </div>
                                     </div>
                                 </form>
@@ -150,13 +153,14 @@
     £('.remove-item').click(function(e) {
         var csrfToken = "{{ csrf_token }}";
         var itemId = £(this).attr('id').split('remove_')[1];
-        // var size = £(this).data('size');
+        var size = £(this).data('size');
         var url = `/bag/remove/£{itemId}`;
-        // var data = {'csrfmiddlewaretoken': csrfToken, 'size': size};
+        var data = {'csrfmiddlewaretoken': csrfToken, 'size': size};
 
-        // £.post(url, data)
+        £.post(url, data)
          .done(function() {
              location.reload();
          });
     })
+</script>
 {% endblock %}
