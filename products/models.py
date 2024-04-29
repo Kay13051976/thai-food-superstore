@@ -22,6 +22,7 @@ class Product(models.Model):
         (1, 'YES'),
     ]
     category = models.ForeignKey('Category', null=True, blank=True, on_delete=models.SET_NULL)
+    sku = models.CharField(max_length=254, null=True, blank=True)
     name = models.CharField(max_length=255)
     slug = models.SlugField(null=True)
     description = models.TextField(null=True)
