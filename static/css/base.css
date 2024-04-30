@@ -295,10 +295,3 @@ h5 {
     color: white !important;
 }
 
-/* checkout app style */
-.btn-complete-order:hover {
-    border: 1px solid black;
-    background:  #4b7bff;
-    padding: 8px;
-
-}
