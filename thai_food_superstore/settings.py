@@ -52,8 +52,8 @@ INSTALLED_APPS = [
     'products',
     'bag',
     'letter.apps.LetterConfig',
-    'recipes',
     'checkout',
+    'recepies',
     
     # Other
     'crispy_forms',
