@@ -1,0 +1,158 @@
+{% extends "base.html" %}
+{% load static %}
+{% block page_header %}
+<div class="container header-container">
+  <div class="row">
+    <div class="col">
+    </div>
+  </div>
+</div>
+
+{% endblock %}
+
+{% block content %}
+{% comment %} Aside advert {% endcomment %}
+<div class="row my-5 pt-5 bg-light w-100">
+  <div class="col-md-3 d-none d-md-block pt-5 bg-light aside-container-advert">
+    <div class="col-12 bg-light">
+      <a href="#" class="text-decoration-none" target="_blank"
+        aria-label="Visit our product-page green curry paste(open in a same tab)">
+        <div class="card mt-5 hover-color-ads shadow-none">
+          <img class="card-img-top mt-5" alt="green curry bowl product" src="/media/paste/green_curry_paste_bowl.jpg">
+          <div class="card-body">
+            <h4>40 % DISCOUNT</h4>
+            <h5 class="card-title">Thai Green Curry Paste</h5>
+            <a class="nav-link active" href="#"
+              aria-label="Visit our product-page green curry paste bowl(open in a same tab)">SHOP NOW</a>
+              <p class="card-text"> <small class="text-body-secondary">Mae ploy Thai Green Curry - 400g, is an ideal base
+                for making traditional Thai cuisine. make from Green Chilli 31.0%, Lemongrass, Garlic, Salt, Galangal,
+                Shrimp Paste (ShrimpCrustacean), Salt, Kaffir Lime Peel, Coriander Seed, Pepper, Cumin,
+                Turmeric.</small> </p>
+          </div>
+        </div>
+      </a>
+      <a href="#" class="text-decoration-none" target="_blank"
+        aria-label="Visit our product-page household essentials wok carbon steel(open in a same tab)">
+        <div class="card my-3 hover-color-ads">
+          <img class="card-img-top" alt="wok carbon steel product" src="/media/kitchen_utensils/wok_carbon_steel.jpg">
+          <div class="card-body">
+            <h4>30 % DISCOUNT</h4>
+            <h5 class="card-title">Carbon Steel Wok</h5>
+            <a class="nav-link active" href="#" aria-label="Visit our product-page housrhold essentials wok carbon steel(open in a same tab)">SHOP NOW</a>
+            <p class="card-text"> <small class="text-body-secondary">
+                Carbon steel wok, 32cm, excellence, induction hobs, suitable /natural patina non-stick, beech
+                handle/metal tool safe. This is an indispensable tool for any kitchen enthusiast looking to master the
+                art of stir-frying. Remember to consider the size, shape, and handle.</small> </p>
+          </div>
+        </div>
+      </a>
+      <a href="#" class="text-decoration-none" target="_blank"
+        aria-label="Visit our product-page rice_and_noodle wai wai rice noodle(open in a same tab)">
+        <div class="card my-3 hover-color-ads">
+          <img class="card-img-top" alt="wai wai rice noodle product" src="/media/rice_and_noodle/wai_wai_noodle.jpg">
+          <div class="card-body">
+            <h4>50 % DISCOUNT</h4>
+            <h5 class="card-title">Rice Noodle Wai Wai</h5>
+            <a class="nav-link active" href="#" aria-label="Visit our product-page rice and noodle wai wai rice noodle(open in a same tab)">SHOP NOW</a>
+            <p class="card-text"> <small class="text-body-secondary">Wai Wai Oriental Style Instant Noodles are
+                processed using the latest formula through automatic equipment. They are dried hygienically without
+                exposure to the sun to serve as a complete food. </small> </p>
+          </div>
+        </div>
+      </a>
+      <a href="#" class="text-decoration-none" target="_blank"
+        aria-label="Visit our product-page friut and vegetables durian(open in a same tab)">
+        <div class="card my-3 hover-color-ads">
+          <img class="card-img-top" alt="durian Fresh" src="/media/fresh/durian.jpg">
+          <div class="card-body">
+            <h4>20 % DISCOUNT</h4>
+            <h5 class="card-title">Durian</h5>
+            <a class="nav-link active" href="#" aria-label="Visit our product-page fresh fruit and vegetables durian(open in a same tab)">SHOP NOW</a>
+            <p class="card-text"> <small class="text-body-secondary">
+                Fresh & tasty Durian for sale! Buy fresh Durian online, rare exotic fruit delivery boxes delivered to
+                your door, next working anywhere in the UK.</small> </p>
+          </div>
+        </div>
+      </a>
+      <a href="#" class="text-decoration-none" target="_blank"
+        aria-label="Visit our product-page household drugs(open in a same tab)">
+        <div class="card my-3 hover-color-ads">
+          <img class="card-img-top" alt="tiger balm product" src="/media/household_drugs/taiger_balm.jpg">
+          <div class="card-body">
+            <h4>40 % DISCOUNT</h4>
+            <h5 class="card-title">Tiger Balm</h5>
+            <a class="nav-link active" href="#"
+              aria-label="Visit our product-page household drugs(open in a same tab)">SHOP NOW</a>
+            <p class="card-text"> <small class="text-body-secondary">
+                Tiger Balm, inspired by centuries of Chinese wisdom, offers a unique formulation specially made with
+                effective active herbal ingredients.
+                Tiger Balm’s herbal and aromatic formulas help soothe sore and aching muscles, and Tiger Balm White
+                offers relief from tension headaches.</small> </p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+  {% comment %} Main content {% endcomment %}
+  <div class="col mb-12 mt-5 w-100 pt-5">
+    <div class="card w-100 border-0 shadow-none main-container">
+
+{% for recipe in datas %}
+
+        <div class="shadow-sm bg-white rounded card-container-margin mb-3">
+            {% if recipe.image %}
+        <img src="{{ recipe.image.url }}" class="img-fluid" alt="pad thai with two small seasoning bowl and lime">
+            {% endif %}
+        <div class="card-body">
+          <h3 class="card-title">
+            <i class="fa-solid fa-pepper-hot"></i> {{ recipe.name }}</h3>
+          <p class="card-text">{{ recipe.description }}
+            <a class="nav-link active" href="{% url 'recepies_detail' recipe.id %}" rel="noopener"
+              aria-label="Visit our facebook padthai recipes(open in a new tab)">Get {{ recipe.name }} Recipes</a>
+            <a class="nav-link active" href="#"
+              aria-label="Visit our product-page rice and noodle(open in a same tab)">SHOP NOW</a>
+          </p>
+
+<nav class="">
+        <form method="GET" action="{% url 'recepies' %}">
+          <div class="input-group ">
+            <input class="form-control border border-black" type="hidden" name="recipeid" value="{{ recipe.id }}" placeholder="Leave Comment"
+              aria-label="Search">
+            <input class="form-control border border-black" type="text" name="comment" placeholder="Leave Comment"
+              aria-label="Search">
+            <div class="input-group-append">
+              <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">
+                Submit
+              </button>
+            </div>
+          </div>
+        </form>
+      </nav>
+
+{% for commentn in recipe.comments.all|dictsortreversed:"id"|slice:":2" %}
+
+                <div class="text-justify darker mt-4 ">
+                  <div style="display:flex;" >
+                  <img src="https://i.imgur.com/CFpa3nK.jpg" alt="" class="rounded-circle mr-2" width="40" height="40">
+                    <h4 style="margin: auto; width:95%" >{{ commentn.name }}</h4>
+</div>
+                    <p>{{ commentn.body }}</p>
+                </div>
+
+
+
+{% endfor %}
+
+
+        </div>
+      </div>
+
+{% endfor %}
+
+
+    </div>
+
+
+  </div>
+</div>
+{% endblock %}

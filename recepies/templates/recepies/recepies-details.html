@@ -1,0 +1,83 @@
+{% extends "base.html" %}
+{% load static %}
+{% block page_header %}
+<div class="container header-container">
+  <div class="row">
+    <div class="col">
+    </div>
+  </div>
+</div>
+
+{% endblock %}
+
+{% block content %}
+{% comment %} Aside advert {% endcomment %}
+<div class="row my-5 pt-5 bg-light w-100">
+
+  {% comment %} Main content {% endcomment %}
+  <div class="col mb-12 mt-5 w-100 pt-5 ml-4">
+    <div class="card w-100 border-0 shadow-none main-container">
+
+
+
+        <div class="shadow-sm bg-white rounded card-container-margin mb-3">
+            {% if recipe.image %}
+        <img src="{{ recipe.image.url }}" class="img-fluid" alt="pad thai with two small seasoning bowl and lime">
+            {% endif %}
+        <div class="card-body">
+          <h3 class="card-title">
+            <i class="fa-solid fa-pepper-hot"></i> {{ recipe.name }}</h3>
+            {% if recipe.category %}
+
+            <h4>Category: {{ recipe.category.friendly_name }}</h4>
+
+
+            {% endif %}
+          <p class="card-text">{{ recipe.description }}
+            <a class="nav-link active" href="#"
+              aria-label="Visit our product-page rice and noodle(open in a same tab)">SHOP NOW</a>
+          </p>
+
+<nav class="">
+        <form method="GET" action="{% url 'recepies' %}">
+          <div class="input-group ">
+            <input class="form-control border border-black" type="hidden" name="recipeid" value="{{ recipe.id }}" placeholder="Leave Comment"
+              aria-label="Search">
+            <input class="form-control border border-black" type="text" name="comment" placeholder="Leave Comment"
+              aria-label="Search">
+            <div class="input-group-append">
+              <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">
+                Submit
+              </button>
+            </div>
+          </div>
+        </form>
+      </nav>
+
+{% for commentn in recipe.comments.all|dictsortreversed:"id" %}
+
+                <div class="text-justify darker mt-4 ">
+                  <div style="display:flex;" >
+                  <img src="https://i.imgur.com/CFpa3nK.jpg" alt="" class="rounded-circle mr-2" width="40" height="40">
+                    <h4 style="margin: auto; width:95%" >{{ commentn.name }}</h4>
+</div>
+                    <p>{{ commentn.body }}</p>
+                </div>
+
+
+
+{% endfor %}
+
+
+        </div>
+      </div>
+
+
+
+
+    </div>
+
+
+  </div>
+</div>
+{% endblock %}
