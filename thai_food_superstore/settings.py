@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-(4sam#^_zp7n_is%+^p%g@r(ha!2_#cy7p$wkeub7vno%&4dqb
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-CSRF_TRUSTED_ORIGINS = ['https://8000-kay13051976-thaifoodsup-0pxf5by5xym.ws-eu110.gitpod.io',
+CSRF_TRUSTED_ORIGINS = ['https://8000-kay13051976-thaifoodsup-0pxf5by5xym.ws-eu110.gitpod.io', 'https://8000-kay13051976-thaifoodsup-0pxf5by5xym.ws-eu112.gitpod.io',
                         'https://127.0.0.1', 'https://127.0.0.1:8000', 'https://localhost', 'https://*']
 CORS_ORIGIN_WHITELIST = ['https://8000-kay13051976-thaifoodsup-0pxf5by5xym.ws-eu110.gitpod.io',
                          'https://127.0.0.1', 'https://127.0.0.1:8000', 'https://localhost', 'https://*']
@@ -54,7 +54,7 @@ INSTALLED_APPS = [
     'letter.apps.LetterConfig',
     'checkout',
     'recepies',
-    
+
     # Other
     'crispy_forms',
 ]
