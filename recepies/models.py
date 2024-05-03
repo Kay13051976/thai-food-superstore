@@ -31,6 +31,7 @@ class Recepies(models.Model):
     def __str__(self) -> str:
         return self.name
 
+
 class Comment(models.Model):
     name = models.CharField(max_length=225)
     post_name = models.ForeignKey(Recepies, on_delete=models.CASCADE, related_name='comments')
@@ -39,5 +40,3 @@ class Comment(models.Model):
 
     def __str__(self):
         return str(self.post_name)
-
-

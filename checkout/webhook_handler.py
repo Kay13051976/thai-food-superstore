@@ -6,6 +6,7 @@ from products.models import Product
 import json
 import time
 
+
 class StripeWH_Handler:
     """Handle Stripe webhooks"""
 
@@ -30,13 +31,11 @@ class StripeWH_Handler:
         save_info = intent.metadata.save_info
 
         # Get the Charge object
-        stripe_charge = stripe.Charge.retrieve(
-        intent.latest_charge
-)
+        stripe_charge = stripe.Charge.retrieve(intent.latest_charge)
 
-        billing_details = intent.charge.billing_details # updated
+        billing_details = intent.charge.billing_details  # updated
         shipping_details = intent.shipping
-        grand_total = round(stripe.charge.amount / 100, 2) # updated
+        grand_total = round(stripe.charge.amount / 100, 2)  # updated
 
         # Clean data in the shipping details
         for field, value in shipping_details.address.items():
