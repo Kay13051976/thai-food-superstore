@@ -142,6 +142,29 @@ Twister is a real-time platform where users can engage in conversations, updates
 
 ## Design
 ### Color Scheme
+[Color hex link](https://www.color-hex.com/)
+[Image color picker link](https://imagecolorpicker.com/)
+#### White
+![White1](documentation/color_image_white1.png)
+![White2](documentation/color_image_white2.png)
+![White3](documentation/color_image_white3.png)
+#### Blue
+![Blue1](documentation/color_image_blue.png)
+![Blue2](documentation/color_image_blue1.png)
+
+#### Red
+![Red](documentation/color_image_red.png)
+
+#### Green
+![Green](documentation/color_image_green1.png)
+
+
+#### Grey
+![Grey1](documentation/color_image_grey.png)
+![Grey2](documentation/color_image_grey1.png)
+
+#### Black
+![Black](documentation/color_image_black.png)
 
 ### Typography
 ### Imagery
@@ -174,7 +197,7 @@ Twister is a real-time platform where users can engage in conversations, updates
 ## Information Architecture
 ### Database
 #### Entity-Relationship Diagram
-
+![Entity relationship diagram](documentation/entity_relationship_diagram.png)
 ### Data Modeling
 
 ## Testing
