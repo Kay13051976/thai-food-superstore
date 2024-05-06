@@ -97,6 +97,17 @@ Twister is a real-time platform where users can engage in conversations, updates
 #### GDPR(General Data Protection Regulation)
 * Privacy policy & cookie consent is Aimed at a diverse
 
+
+### Search Engine Optimization
+#### Key word
+- Keyword research steps
+  assess keyword choices for relevance and authoritativeness, and dig into the data available on keyword volume and competition using wordtracker.com[wordtracker.com](https://www.wordtracker.com/search?query=thai%20food)
+  ![wordtracker.com image](documentation/wordtracker_assess_keyword_image.png)
+- Short-tail Keyword 
+  - thai food, thailand, food in thailand, thai curry, thai food online, thai, thai food shop, 
+- Long-tail Keyword
+  - thai food near me, order thai food near me, best thai food near me, thai food delivery near me, good thai food mear me, cheap thai food near me, order thai food near me, order thai food near me, thai food recipes, thai food restaurant near me, authentic thai food me, thai food take out near me, traditional thai food, thai red curry, thai signature dish,tThai green curry, How to cook thai food, How to cook thai curry, thai curry ingredients, what to eat in thailand, thailand trip,wWhole sale thaifood, best thaifood online
+
 ## Future Development
 * Live chat support
 * Sorting products by rating and reviews
