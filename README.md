@@ -109,7 +109,7 @@ Twister is a real-time platform where users can engage in conversations, updates
 - Short-tail Keyword 
   - thai food, thailand, food in thailand, thai curry, thai food online, thai, thai food shop, bangkok, bangkok cutsine, chiangmai
 - Long-tail Keyword
-  - thai food near me, order thai food near me, best thai food near me, thai food delivery near me, good thai food mear me, cheap thai food near me, order thai food near me, order thai food near me, thai food recipes, thai food restaurant near me, authentic thai food me, thai food take out near me, traditional thai food, thai red curry, thai signature dish,tThai green curry, How to cook thai food, How to cook thai curry, thai curry ingredients, what to eat in thailand, thailand trip,wWhole sale thaifood, best thaifood online, one night in bangkok, one night in bangkok
+  - thai food near me, order thai food near me, best thai food near me, thai food delivery near me, thai food super market online, good thai food mear me, cheap thai food near me, order thai food near me, order thai food near me, thai food recipes, thai food restaurant near me, authentic thai food me, thai food take out near me, traditional thai food, thai red curry, thai signature dish,tThai green curry, How to cook thai food, How to cook thai curry, thai curry ingredients, what to eat in thailand, thailand trip,wWhole sale thaifood, best thaifood online, one night in bangkok, one night in bangkok
 
 ## Future Development
 * Live chat support
