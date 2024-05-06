@@ -102,11 +102,14 @@ Twister is a real-time platform where users can engage in conversations, updates
 #### Key word
 - Keyword research steps
   assess keyword choices for relevance and authoritativeness, and dig into the data available on keyword volume and competition using wordtracker.com[wordtracker.com](https://www.wordtracker.com/search?query=thai%20food)
-  ![wordtracker.com image](documentation/wordtracker_assess_keyword_image.png)
+  ![wordtracker thaifood](documentation/wordtracker_assess_keyword_thaifood.png)
+  ![wordtracker bangkok](documentation/wordtracker_assess_keyword_bangkok.png)
+  ![wordtracker chiangmai](documentation/wordtracker_assess_keyword_chiangmai.png)
+  ![wordtracker thailand](documentation/wordtracker_assess_keyword_thailand.png)
 - Short-tail Keyword 
-  - thai food, thailand, food in thailand, thai curry, thai food online, thai, thai food shop, 
+  - thai food, thailand, food in thailand, thai curry, thai food online, thai, thai food shop, bangkok, bangkok cutsine, chiangmai
 - Long-tail Keyword
-  - thai food near me, order thai food near me, best thai food near me, thai food delivery near me, good thai food mear me, cheap thai food near me, order thai food near me, order thai food near me, thai food recipes, thai food restaurant near me, authentic thai food me, thai food take out near me, traditional thai food, thai red curry, thai signature dish,tThai green curry, How to cook thai food, How to cook thai curry, thai curry ingredients, what to eat in thailand, thailand trip,wWhole sale thaifood, best thaifood online
+  - thai food near me, order thai food near me, best thai food near me, thai food delivery near me, good thai food mear me, cheap thai food near me, order thai food near me, order thai food near me, thai food recipes, thai food restaurant near me, authentic thai food me, thai food take out near me, traditional thai food, thai red curry, thai signature dish,tThai green curry, How to cook thai food, How to cook thai curry, thai curry ingredients, what to eat in thailand, thailand trip,wWhole sale thaifood, best thaifood online, one night in bangkok, one night in bangkok
 
 ## Future Development
 * Live chat support
