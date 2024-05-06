@@ -86,7 +86,7 @@ Newsletter were implemented in the email_notification app.
     ![Promo Codes image]()
     ![special offer image]()
   * Paid advertising(Future improvement)
-#### Free Marketing
+#### Free Marketing (organic social media marketing)
 * Facebook & Mailchimp
 Facebook is essential for the store to reach customers. According to the statistics, the store has a good reach among people who prefer to use Facebook and many groups related to Thai cuisine, for example, the Thai market and Thai students in the UK.
 * Instagram
@@ -106,10 +106,12 @@ Twister is a real-time platform where users can engage in conversations, updates
   ![wordtracker bangkok](documentation/wordtracker_assess_keyword_bangkok.png)
   ![wordtracker chiangmai](documentation/wordtracker_assess_keyword_chiangmai.png)
   ![wordtracker thailand](documentation/wordtracker_assess_keyword_thailand.png)
+- using google auto complete to search for keyword
+![google auto complete image](documentation/google_auto_complete_keyword.png)
 - Short-tail Keyword 
   - thai food, thailand, food in thailand, thai curry, thai food online, thai, thai food shop, bangkok, bangkok cutsine, chiangmai
 - Long-tail Keyword
-  - thai food near me, order thai food near me, best thai food near me, thai food delivery near me, thai food super market online, good thai food mear me, cheap thai food near me, order thai food near me, order thai food near me, thai food recipes, thai food restaurant near me, authentic thai food me, thai food take out near me, traditional thai food, thai red curry, thai signature dish,tThai green curry, How to cook thai food, How to cook thai curry, thai curry ingredients, what to eat in thailand, thailand trip,wWhole sale thaifood, best thaifood online, one night in bangkok, one night in bangkok
+  - thai food supermarket online, thai food near me, order thai food near me, best thai food near me, thai food delivery near me, thai food super market online, good thai food mear me, cheap thai food near me, order thai food near me, order thai food near me, thai food recipes, thai food restaurant near me, authentic thai food me, thai food take out near me, traditional thai food, thai red curry, thai signature dish,tThai green curry, How to cook thai food, How to cook thai curry, thai curry ingredients, what to eat in thailand, thailand trip,wWhole sale thaifood, best thaifood online, one night in bangkok, one night in bangkok
 
 ## Future Development
 * Live chat support
