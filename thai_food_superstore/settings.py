@@ -30,9 +30,9 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 DEBUG = 'DEVELOPMENT' in os.environ
 
 CSRF_TRUSTED_ORIGINS = ['https://8000-kay13051976-thaifoodsup-0pxf5by5xym.ws-eu110.gitpod.io', 'https://8000-kay13051976-thaifoodsup-0pxf5by5xym.ws-eu112.gitpod.io',
-                        'https://127.0.0.1', 'https://127.0.0.1:8000', 'https://localhost', 'https://*', 'https://thai-food-superstore-8d235ca8e63c.herokuapp.com']
+                        'https://127.0.0.1', 'https://127.0.0.1:8000', 'https://localhost', 'https://*', 'https://thai-food-superstore-8d235ca8e63c.herokuapp.com',]
 CORS_ORIGIN_WHITELIST = ['https://8000-kay13051976-thaifoodsup-0pxf5by5xym.ws-eu110.gitpod.io',
-                         'https://127.0.0.1', 'https://127.0.0.1:8000', 'https://localhost', 'https://*', 'https://thai-food-superstore-8d235ca8e63c.herokuapp.com']
+                         'https://127.0.0.1', 'https://127.0.0.1:8000', 'https://localhost', 'https://*', 'https://thai-food-superstore-8d235ca8e63c.herokuapp.com',]
 
 ALLOWED_HOSTS = ['8000-kay13051976-thaifoodsup-0pxf5by5xym.ws-eu110.gitpod.io', 'thai-food-superstore-8d235ca8e63c.herokuapp.com',
                  '127.0.0.1', '127.0.0.1:8000', 'localhost', '*']
@@ -192,6 +192,11 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 if 'USE_AWS' in os.environ:
+    # Cache control
+    AWS_S3_OBJECT_PARAMETERS = {
+        'Expires': 'Thu, 31 Dec 2099 20:00:00 GMT',
+        'CacheControl': 'max-age=94608000',
+    }
 
     # Bucket Config
     AWS_STORAGE_BUCKET_NAME = 'thai-food-superstore-1'
