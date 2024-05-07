@@ -27,16 +27,18 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = 'DEVELOPMENT' in os.environ
+DEBUG = True #'DEVELOPMENT' in os.environ
 
 CSRF_TRUSTED_ORIGINS = ['https://8000-kay13051976-thaifoodsup-0pxf5by5xym.ws-eu110.gitpod.io', 'https://8000-kay13051976-thaifoodsup-0pxf5by5xym.ws-eu112.gitpod.io',
-                        'https://127.0.0.1', 'https://127.0.0.1:8000', 'https://localhost', 'https://*', 'https://thai-food-superstore-8d235ca8e63c.herokuapp.com',]
-CORS_ORIGIN_WHITELIST = ['https://8000-kay13051976-thaifoodsup-0pxf5by5xym.ws-eu110.gitpod.io',
+                        'https://127.0.0.1', 'https://127.0.0.1:8000', 'https://localhost', 'https://*', 'https://thai-food-superstore-8d235ca8e63c.herokuapp.com', 
+                        'https://8000-kay13051976-thaifoodsup-0pxf5by5xym.ws-eu111.gitpod.io',]
+CORS_ORIGIN_WHITELIST = ['https://8000-kay13051976-thaifoodsup-0pxf5by5xym.ws-eu110.gitpod.io','https://8000-kay13051976-thaifoodsup-0pxf5by5xym.ws-eu111.gitpod.io',
                          'https://127.0.0.1', 'https://127.0.0.1:8000', 'https://localhost', 'https://*', 'https://thai-food-superstore-8d235ca8e63c.herokuapp.com',]
 
 ALLOWED_HOSTS = ['8000-kay13051976-thaifoodsup-0pxf5by5xym.ws-eu110.gitpod.io', 'thai-food-superstore-8d235ca8e63c.herokuapp.com',
-                 '127.0.0.1', '127.0.0.1:8000', 'localhost', '*']
+                 '8000-kay13051976-thaifoodsup-0pxf5by5xym.ws-eu111.gitpod.io', '127.0.0.1', '127.0.0.1:8000', 'localhost', '*']
 
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
 # Application definition
 
@@ -187,6 +189,7 @@ EMAIL_HOST_USER = 'testsmtpmail@sns-autotransport.com'  # Enter your email
 EMAIL_HOST_PASSWORD = 'gL29YHRjv2YV8fZ7@'  # Enter the password to the email
 
 STATIC_URL = '/static/'
+STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
@@ -235,3 +238,4 @@ STRIPE_CURRENCY = 'gbp'
 STRIPE_PUBLIC_KEY = os.getenv('STRIPE_PUBLIC_KEY', '')
 STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY', '')
 STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', '')
+
