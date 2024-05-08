@@ -87,8 +87,10 @@ Newsletter were implemented in the email_notification app.
     ![special offer image]()
   * Paid advertising(Future improvement)
 #### Free Marketing (organic social media marketing)
-* Facebook & Mailchimp
+* Facebook 
 Facebook is essential for the store to reach customers. According to the statistics, the store has a good reach among people who prefer to use Facebook and many groups related to Thai cuisine, for example, the Thai market and Thai students in the UK.
+![Facebook home page](documentation/facebook_home_page.png)
+![Facebook advert post](documentation/facebook_advert_post.png)
 * Instagram
 Instagram is good for promoting products because it is primarily a visual platform and is good for building recognition and trust among followers. Hashtags are crucial for increasing the discoverability of posts on Instagram and can help reach a wider audience and attract users who are interested in Thai food products.
 * Twister
@@ -117,44 +119,60 @@ Twister is a real-time platform where users can engage in conversations, updates
 * Live chat support
 * Sorting products by rating and reviews
 * Third-party registration
-* Payment system
+* Payment system(more choice)
 * Order cancellation
 * Delivery cost calculation
 
 ## Technologies used
 ### Languages
-* Python 3.12.2
-* JS
-* HTML
-* CSS
+* [Python3.12.2](https://www.python.org/downloads/release/python-3122/): the primary language used to develop the server-side of the website.
+* [JS](https://www.javascript.com/): the primary language used to develop interactive components of the website.
+* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML):  the markup language used to create the website.
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/css): the styling language used to style the website.
 ### Framworks and libraries
-* Django
-* jQuery
-* jQuery User Interface
+*[Django](https://www.djangoproject.com/): python framework used to create all the logic.
+
+*[jQuery](https://jquery.com/): was used to control click events and sending AJAX requests.
+
+*[jQuery User Interface](https://jqueryui.com/) was used to create interactive elements.
 ### Databases
-* PostgreSQL
+* [Neon Postgres](https://neon.tech/): PostgreSQL@15
 
 ### Other tools
-* Git
-* Pip3
-* Gunicorn
-* Psycopg2
-* Django-allauth
-* GitHub
-* VSCode
-* Chrome DevTools
-* Font Awesome
-* Coolors
-* W3c Validator
-* W3c CSS Validator
-* JShint
-* PEP8
-* Stripe
-* Sitemap Generator
-* Privacy Policy Generator
-* Django-extensions
+* [Git](https://git-scm.com/): the version control system used to manage the code.
+* [Pip3](https://pypi.org/project/pip/)
+* [Gunicorn](https://gunicorn.org/)
+* [Psycopg2](https://www.psycopg.org/)
+* [Django-allauth](https://django-allauth.readthedocs.io/en/latest/)
+* [Django-crispy-forms](https://django-cryptography.readthedocs.io/en/latest/)
+* [Render](https://pypi.org/project/render/)
+* [GitHub](https://github.com/)
+* [VSCode](https://code.visualstudio.com/)
+* [Chrome DevTools](https://developer.chrome.com/docs/devtools/open/)
+* [Font Awesome](https://fontawesome.com/)
+* [Coolors](https://coolors.co/)
+* [W3c Validator](https://validator.w3.org/)
+* [W3c CSS ](https://jigsaw.w3.org/css-validator/)
+* [JShint](https://jshint.com/)
+* [PEP8](https://pep8.org/)
+* [Stripe](https://stripe.com/gb)
+* [Sitemap Generator](https://www.xml-sitemaps.com/)
+* [Privacy Policy Generator](https://www.privacypolicygenerator.info/)
+* [Django-extensions](https://django-extensions.readthedocs.io/en/latest/)
 
-## Features
+## [Features](FEATURES.md)
+
+![]()
+![]()
+![]()
+![]()
+![]()
+![]()
+![]()
+![]()
+![]()
+![]()
+
 
 ## Design
 ### Color Scheme
