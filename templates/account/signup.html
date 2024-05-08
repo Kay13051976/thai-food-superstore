@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block title %}Home Page {% endblock %}
+{% load allauth i18n %}
+{% block head_title %}
+    {% trans "Signup" %}
+{% endblock head_title %}
+{% block content %}
+<div class="container" style="margin-top:200px;margin-bottom:50px;" >
+    <div class="row mt-5 pt-5 pb-5">
+        <div class="col-md-4 offset-md-4 justify-conten-center">
+    {% element h1 %}
+        {% trans "Sign Up" %}
+    {% endelement %}
+    <p>
+        {% blocktrans %}Already have an account? Then please <a href="{{ login_url }}">sign in</a>.{% endblocktrans %}
+    </p>
+<div class="card newsletter-container">
+                <div class="card-body">
+    {% url 'account_signup' as action_url %}
+    {% element form form=form method="post" action=action_url tags="entrance,signup" %}
+        {% slot body %}
+            {% csrf_token %}
+            {% element fields form=form unlabeled=True %}
+            {% endelement %}
+            {% if redirect_field_value %}
+                <input type="hidden"
+                       name="{{ redirect_field_name }}"
+                       value="{{ redirect_field_value }}" />
+            {% endif %}
+        {% endslot %}
+        {% slot actions %}
+
+                    <input class="btn btn-info btn-block" type="submit" value="Sign Up" >
+        {% endslot %}
+    {% endelement %}
+    {% if SOCIALACCOUNT_ENABLED %}
+        {% include "socialaccount/snippets/login.html" with page_layout="entrance" %}
+    {% endif %}
+        </div>
+    </div>
+</div>
+    </div>
+</div>
+{% endblock content %}

@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% block title %}Home Page {% endblock %}
+{% load allauth i18n %}
+{% block head_title %}
+    {% trans "Sign Out" %}
+{% endblock head_title %}
+{% block content %}
+<div class="container" style="margin-top:200px;margin-bottom:50px;" >
+    <div class="row mt-5 pt-5 pb-5">
+        <div class="col-md-4 offset-md-4 text-center justify-conten-center">
+    {% element h1 %}
+        {% trans "Sign Out" %}
+    {% endelement %}
+            <div class="card newsletter-container">
+                <div class="card-body">
+    <p>{% trans 'Are you sure you want to sign out?' %}</p>
+    {% url 'account_logout' as action_url %}
+    {% element form method="post" action=action_url no_visible_fields=True %}
+        {% slot body %}
+            {% csrf_token %}
+            {% if redirect_field_value %}
+                <input type="hidden"
+                       name="{{ redirect_field_name }}"
+                       value="{{ redirect_field_value }}" />
+            {% endif %}
+        {% endslot %}
+        {% slot actions %}
+
+            <input class="btn btn-info btn-block" type="submit" value="Sign Out" >
+        {% endslot %}
+    {% endelement %}
+        </div>
+    </div>
+</div>
+    </div>
+</div>
+{% endblock content %}
