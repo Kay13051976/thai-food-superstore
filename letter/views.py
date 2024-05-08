@@ -57,14 +57,11 @@ def mail_letter(request):
 
                     message_new = MailMessage(newid, title, message)
                     message_new.save()
-                    email_new = EmailMessage(title,
+
+                    send_mail(title,
                     message,
                     'testsmtpmail@sns-autotransport.com',
-                    mail_list
-                    )
-                    email_new.send(
-                    fail_silently=True
-                    )
+                    mail_list)
                     messages.success(request, 'Message has been sent to the Mail List')
                     return redirect('mail-letter')
             else:
