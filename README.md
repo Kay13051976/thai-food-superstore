@@ -1,6 +1,9 @@
 # Thai-Food-Superstore
 ### Deployed website:[ Link to website]()
-![Front page image](documentation/home_page_image_1.png)
+![Front page image1](documentation/home_page1.png)
+![Front page image2](documentation/home_page2.png)
+![Front page image3](documentation/home_page3.png)
+
 
 
 ### card number for payment testing: 4242 4242 4242 4242
