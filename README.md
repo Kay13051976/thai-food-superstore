@@ -9,14 +9,14 @@
 ### card number for payment testing: 4242 4242 4242 4242
 
 ## About
-"Thai Food Superstore" is an e-commerce website that provides a convenient and accessible shopping platform for individuals to purchase various Thai products and ingredients online. It has a login system, a shopping cart, a checkout system, and a payment system. This website has a notification system if they submit a request. In addition, it has personnel functionality that allows the admin, manager, and other personnel to manage the website. The multiple implementation functions are due to the desire to create something reusable in the real world.
+"Thai Food Superstore" is an e-commerce website that provides a convenient and accessible shopping platform for individuals to purchase various Thai products and ingredients online. It has a login system, a shopping cart, a checkout system, and a payment system. This website has a notification system if they submit a request and a repipe page where people can share their opinions or recipes through comments when they register to the website. In addition, it has personnel functionality that allows the admin, manager, and other personnel to manage the website. The multiple implementation functions are due to the desire to create something reusable in the real world.
 
 ## UX
 Thai Food Superstore website was created to have straightforward navigation, eye-catching, high-quality images, product detail, user-friendly variety, Global reach, conscious shopping, transparent pricing and 
  shipping, and enjoyable shopping experience for those interested in exploring rich and diverse flavours of Thai cuisine. The website is designed to be simple and easy to use, attracting customers to sign up to get discounts and information on offers. Also, functionality and efficiency for admins to manage and achieve the business goal.
 
  ## Target Audience
- This website is designed for Thai people and those interested in exploring and enjoying purchasing food products and ingredients of Thai cuisine.
+ This website is designed for Thai people or anyone interested in exploring and enjoying purchasing food products and ingredients from Thai cuisine.
 
 ## User Stories
 ## First Time Visitor
@@ -49,7 +49,8 @@ Thai Food Superstore website was created to have straightforward navigation, eye
 |[20]()|As a Regular User, I want to receive an email confirmation after checking out so that I can keep the confirmation of what I've purchased for my records.|
 |[21]()|As a Regular User, I want to be able to change my profile data so that I can keep my profile up to date.|
 |[22]()|As a Regular User, I want to add, edit, and delete addresses so that I can be sure that I will receive my order at the correct address.|
-|[23]()|As a Regular User, I want to be able to change my primary address so that I can set the primary address without editing it.|
+|[23]()|As a Regular User, I want to be able to change my primary address so that I can set the primary address without editing it.
+|[24]()|As a regular user, I want to get recommended recipes and share my experience or recipes about Thai food.|
 |       |         |
 
 ### Admin
