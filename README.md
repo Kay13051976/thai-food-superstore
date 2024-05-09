@@ -179,25 +179,31 @@ Twister is a real-time platform where users can engage in conversations, updates
 [Color hex link](https://www.color-hex.com/)
 [Image color picker link](https://imagecolorpicker.com/)
 #### White
+- White has been used for the background and paragraph, which White is often associated with purity, perfection, honesty, cleanliness, and beginnings
 ![White1](documentation/color_image_white1.png)
 ![White2](documentation/color_image_white2.png)
 ![White3](documentation/color_image_white3.png)
 #### Blue
+- Blue has been used for the buttons, header, and links to dominate the part and catch the user's eye. Blue represents truth, mercy, and love. It is also associated with mourning and trust.
 ![Blue1](documentation/color_image_blue.png)
 ![Blue2](documentation/color_image_blue1.png)
 
 #### Red
+- Red has been used for the links and discount paragraph to dominate the part the user can click and catch the user's eye; since red is the colour of blood, it has historically been associated with sacrifice, danger, and courage. Also, the colour is most commonly associated with heat, activity, passion, sexuality, anger, love, and joy.
 ![Red](documentation/color_image_red.png)
 
 #### Green
+- Green has been used for the button and header or paragraph to dominate the part the user can click and to catch the user's eye. Green, the colour of nature, represents growth, harmony, fertility, and freshness. Due to its spectral wavelength, it is the most restful and relaxing colour to the eye.
 ![Green](documentation/color_image_green1.png)
 
 
 #### Grey
+- Grey has been used for the paragraph, padding or shadow to paragraph;  grey is the colour most commonly associated with neutrality, conformity, boredom, uncertainty, old age, indifference, and modesty.
 ![Grey1](documentation/color_image_grey.png)
 ![Grey2](documentation/color_image_grey1.png)
 
 #### Black
+- Black has been used for buttons, headers, and paragraphs; black can be linked with death, mourning, evil magic, and darkness, but it can also symbolize elegance, wealth, restraint, and power. 
 ![Black](documentation/color_image_black.png)
 
 ### Typography
