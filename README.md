@@ -124,11 +124,13 @@ Twister is a real-time platform where users can engage in conversations, updates
 
 ## Future Development
 * Live chat support
-* Sorting products by rating and reviews
+Chat support is planned to be implemented for the best possible support.
 * Third-party registration
+Google was to be considered for future development. Google is the most popular third-party registration service that is easy to implement.
 * Payment system(more choice)
+I want to implement the PayPal payment system in the future, as many customers prefer it.
 * Order cancellation
-* Delivery cost calculation
+The feature requires more research time to implement, so it is not implemented at this stage.
 
 ## Technologies used
 ### Languages
