@@ -65,8 +65,11 @@ Thai Food Superstore website was created to have straightforward navigation, eye
 |                   |           |
 ## Business Model
 The business model is B2C, meaning that the company sells products to customers only. It focuses on individual transaction only.
-## A personal summary of the customer
+## A persona summary of the customer
 The Thai Food Superstore is aimed at those interested in exploring Thai cuisine's rich and diverse flavours. The store provides everyone with the best possible service. The age criteria on this website are customers who are 18 and older. The emphasis was made on providing a good user experience for the customers. This allows them to find the products they are looking for, gives them all available options for these products, and offers the best possible service.
+
+## A persona summary of the store personnel
+ The Thai Food Superstore aims to offer a wide variety of the most popular Thai food products for Thai people and anyone who loves Thai food. This includes Thai products that are challenging to find in Europe. The quality of the product will be the priority, and the affordable price will follow. The main target will be the user-friendly website.
 
 ## Strategy Trade-Off
 
