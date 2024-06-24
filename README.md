@@ -138,7 +138,7 @@ The feature requires more research time to implement, so it is not implemented a
 * [JS](https://www.javascript.com/): the primary language used to develop interactive components of the website.
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML):  the markup language used to create the website.
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/css): the styling language used to style the website.
-### Framworks and libraries
+### Frameworks and libraries
 *[Django](https://www.djangoproject.com/): python framework used to create all the logic.
 
 *[jQuery](https://jquery.com/): was used to control click events and sending AJAX requests.
@@ -169,9 +169,10 @@ The feature requires more research time to implement, so it is not implemented a
 * [Privacy Policy Generator](https://www.privacypolicygenerator.info/)
 * [Django-extensions](https://django-extensions.readthedocs.io/en/latest/)
 
-## [Features](FEATURES.md)
+## Features
+Please refer to the [FEATURES.md](FEATURES.md) file for all test-related documentation.
 
-![]()
+
 ![]()
 ![]()
 ![]()
@@ -223,12 +224,12 @@ The feature requires more research time to implement, so it is not implemented a
 * [Chilli paste image](https://www.istockphoto.com/photo/korean-gochujang-gm1447041218-484956329)
 * [Thai herb image](https://www.istockphoto.com/photo/thai-curry-paste-consisting-of-garlic-birds-eye-chili-pepper-galangal-etc-gm1598818473-530015331)
 * [Green curry image](https://www.istockphoto.com/photo/green-curry-with-chicken-gm619628284-108077649)
-## Wire frames And UI
+## Wire frames And GUI
 * Home page wire frames
 ![Home page](documentation/wirefreme_homepage.png)
-* Home page UI
+* Home page GUI
 ![Home page 1](documentation/home_page_image_ui.png)
-* All product page UI
+* All product page GUI
 ![Product page 1](documentation/product_page_1.png)
 ![Product page 2](documentation/product_page_2.png)
 ![Product page 3](documentation/product_page_3.png)
@@ -236,6 +237,8 @@ The feature requires more research time to implement, so it is not implemented a
 * Fruits and Vegetable page
 ![Fruit and vegetable page](documentation/fruits_and_vegetable_page.png)
 
+* Fruits and Vegetable page GUI
+![Fruit and vegetable page]()
 ### Agile Methodology
 #### GitHub Project Management
 ![github project issue image]()
@@ -248,8 +251,14 @@ The feature requires more research time to implement, so it is not implemented a
 #### Entity-Relationship Diagram
 ![Entity relationship diagram](documentation/entity_relationship_diagram.png)
 ### Data Modeling
+#### Allauth Account
+| Name | Database key | Field Type | Validation |
+|------|--------------|------------|------------|
+| id | id | AutoField | Validation |
 
 ## Testing
+Please refer to the [TESTING.md](TESTING.md) file for all test-related documentation.
+
 ## Credits
 ## Acknowledgments
 
