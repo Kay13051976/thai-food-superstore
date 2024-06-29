@@ -1,3 +1,4 @@
+
 """
 Django settings for thai_food_superstore project.
 
@@ -12,10 +13,10 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 
 import os
 import dj_database_url
+from pathlib import Path
+import sys
 if os.path.isfile('env.py'):
     import env
-from pathlib import Path
-
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -27,7 +28,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = 'DEVELOPMENT' in os.environ
+DEBUG =  'DEVELOPMENT' in os.environ #True  #
 
 CSRF_TRUSTED_ORIGINS = ['https://8000-kay13051976-thaifoodsup-0pxf5by5xym.ws-eu110.gitpod.io', 'https://8000-kay13051976-thaifoodsup-0pxf5by5xym.ws-eu112.gitpod.io',
                         'https://127.0.0.1', 'https://127.0.0.1:8000', 'https://localhost', 'https://*', 'https://thai-food-superstore-8d235ca8e63c.herokuapp.com', 
@@ -191,6 +192,7 @@ EMAIL_HOST_PASSWORD = 'gL29YHRjv2YV8fZ7@'  # Enter the password to the email
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
