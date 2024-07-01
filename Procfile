@@ -1,1 +1,1 @@
-web: gunicorn thai-food-superstore.wsgi:application
+web: node index.js
