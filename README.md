@@ -224,6 +224,8 @@ Please refer to the [FEATURES.md](FEATURES.md) file for all test-related documen
 * [Chilli paste image](https://www.istockphoto.com/photo/korean-gochujang-gm1447041218-484956329)
 * [Thai herb image](https://www.istockphoto.com/photo/thai-curry-paste-consisting-of-garlic-birds-eye-chili-pepper-galangal-etc-gm1598818473-530015331)
 * [Green curry image](https://www.istockphoto.com/photo/green-curry-with-chicken-gm619628284-108077649)
+* [Green curry image recipes](https://www.istockphoto.com/photo/thai-green-curry-gm1140580445-305275053)
+* [Padthai image recipes](https://www.istockphoto.com/photo/pad-thai-gm156289908-22047212)
 ## Wire frames And GUI
 * Home page wire frames
 ![Home page](documentation/wirefreme_homepage.png)
