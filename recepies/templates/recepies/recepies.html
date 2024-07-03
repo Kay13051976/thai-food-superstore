@@ -101,7 +101,7 @@
 
         <div class="shadow-sm bg-white rounded card-container-margin mb-3">
             {% if recipe.image %}
-        <img src="{{ recipe.image.url }}" class="img-fluid" alt="pad thai with two small seasoning bowl and lime">
+        <img src="{{ MEDIA_URL }}{{ recipe.image.url }}" class="img-fluid" alt="pad thai with two small seasoning bowl and lime">
             {% endif %}
         <div class="card-body">
           <h3 class="card-title">
