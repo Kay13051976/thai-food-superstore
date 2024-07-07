@@ -27,7 +27,7 @@ def all_recepies(request):
 
 def recepies_detail(request, recepies_id):
     """ A view to show individual product details """
-    receipe = get_object_or_404(Recepies, pk=recepies_id)
+
     if request.user.is_authenticated:
 
         if request.method == 'GET':
@@ -36,10 +36,12 @@ def recepies_detail(request, recepies_id):
                 RecipeCommments_new = Comment(name=str(request.user), post_name=get_post, body=request.GET['comment'])
                 RecipeCommments_new.save()
 
-    return redirect("recepies_detail", kwargs={"int": int(recepies_id)})
 
-    context = {
-        'recipe': receipe,
-    }
-
-    return render(request, 'recepies/recepies-details.html', context)
+        return redirect("recepies_detail", kwargs={"int": int(recepies_id)})
+    else:
+        receipe = get_object_or_404(Recepies, pk=recepies_id)
+        context = {
+            'recipe': receipe,
+        }
+        return render(request, 'recepies/recepies-details.html', context)
+        
