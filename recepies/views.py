@@ -35,13 +35,10 @@ def recepies_detail(request, recepies_id):
                 get_post = Recepies.objects.get(id=request.GET['recipeid'])
                 RecipeCommments_new = Comment(name=str(request.user), post_name=get_post, body=request.GET['comment'])
                 RecipeCommments_new.save()
+                return redirect("recepies_detail", kwargs={"int": int(recepies_id)})
 
-
-        return redirect("recepies_detail", kwargs={"int": int(recepies_id)})
-    else:
-        receipe = get_object_or_404(Recepies, pk=recepies_id)
-        context = {
-            'recipe': receipe,
-        }
-        return render(request, 'recepies/recepies-details.html', context)
-        
+    receipe = get_object_or_404(Recepies, pk=int(recepies_id))
+    context = {
+                    'recipe': receipe,
+                }
+    return render(request, 'recepies/recepies-details.html', context)
