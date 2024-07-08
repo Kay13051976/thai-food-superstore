@@ -150,7 +150,9 @@ h5 {
     h1 {
         font-size: 30px;
     }
-
+    .form-control {
+        margin-top: 8px;
+    }
     .footer-container-list {
         flex-direction: column;
     }
