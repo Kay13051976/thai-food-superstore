@@ -1,8 +1,8 @@
 # Thai-Food-Superstore
 ### Deployed website:[ Link to website]()
 ![Front page image1](documentation/home_page1.png)
-![Front page image2](documentation/home_page2.png)
-![Front page image3](documentation/home_page3.png)
+
+
 
 
 
@@ -198,6 +198,11 @@ Please refer to the [FEATURES.md](FEATURES.md) file for all test-related documen
 ![Blue1](documentation/color_image_blue.png)
 ![Blue2](documentation/color_image_blue1.png)
 
+#### Turquoise
+- turquoise color,Turquoise is a cyan color, based on the mineral of the same name. The spiritual meaning of turquoise symbolizes wisdom, tranquillity, protection, good fortune and loyalty.
+![Form submit button colour](documentation/form_submit_button_colour.png)
+
+
 #### Red
 - Red has been used for the links and discount paragraph to dominate the part the user can click and catch the user's eye; since red is the colour of blood, it has historically been associated with sacrifice, danger, and courage. Also, the colour is most commonly associated with heat, activity, passion, sexuality, anger, love, and joy.
 ![Red](documentation/color_image_red.png)
@@ -228,19 +233,28 @@ Please refer to the [FEATURES.md](FEATURES.md) file for all test-related documen
 * [Padthai image recipes](https://www.istockphoto.com/photo/pad-thai-gm156289908-22047212)
 ## Wire frames And GUI
 * Home page wire frames
-![Home page](documentation/wirefreme_homepage.png)
+![Home page](documentation/wireframe_home_page.png)
 * Home page GUI
-![Home page 1](documentation/home_page_image_ui.png)
-* All product page GUI
-![Product page 1](documentation/product_page_1.png)
-![Product page 2](documentation/product_page_2.png)
-![Product page 3](documentation/product_page_3.png)
+![Front page image2](documentation/home_page1.png)
+![Front page image2](documentation/home_page2.png)
+![Front page image3](documentation/home_page3.png)
+![Front page image4](documentation/home_page4.png)
 
-* Fruits and Vegetable page
-![Fruit and vegetable page](documentation/fruits_and_vegetable_page.png)
+* All products page wire frames
+![Product page wire fram](documentation/all_product_page_wire_frame.png)
 
-* Fruits and Vegetable page GUI
-![Fruit and vegetable page]()
+
+* All products page GUI
+![Product page 1](documentation/product_page1.png)
+![Product page 2](documentation/product_page2.png)
+![Product page 3](documentation/product_page3.png)
+
+* Fruit page wire frames
+![wireframe fruit page](documentation/wireframe_fruit_page.png)
+
+* Fruit page GUI
+![Fruit page](documentation/fruit_page_gui.png)
+
 ### Agile Methodology
 #### GitHub Project Management
 ![github project issue image]()
