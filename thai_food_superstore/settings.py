@@ -1,4 +1,3 @@
-
 """
 Django settings for thai_food_superstore project.
 
@@ -66,6 +65,7 @@ INSTALLED_APPS = [
     'crispy_forms',
     'crispy_bootstrap4',
     'whitenoise.runserver_nostatic',
+    'widget_tweaks',
 ]
 
 MIDDLEWARE = [
