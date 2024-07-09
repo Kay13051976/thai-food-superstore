@@ -63,7 +63,7 @@
           </a>
          </button>
   
-          {% if user.is_superuser %}
+        {% if user.is_superuser %}
           <button type="button" class="btn btn-light" >
             <a style="color:#212529;text-decoration:none;" href="{% url 'mail-letter' %}">MAIL <span class="sr-only">(current)</span></a>
           </button>
