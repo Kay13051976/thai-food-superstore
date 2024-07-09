@@ -8,14 +8,14 @@ def all_recipes(request):
     if request.user.is_authenticated:
 
         if request.method == 'GET':
-            # allcoments = Recipecommments.objects.all().count()
+            # allcoments = Recipescommments.objects.all().count()
             # newid=allcoments+1
             if 'comment' in request.GET:
                 # form = SubscibersForm(request.POST)
-                # recipes_recipecommme=recipes_recipecommments.recipes_id()
-                # recipes_recipecommme.save()
-                # Recipesnewcom = Recipes.id(request.GET['recipeid'])
-                # Recipecommments(request.GET['comment'],str(request.user))
+                # recipes_recipescommme=recipes_recipescommments.recipes_id()
+                # recipes_recipescommme.save()
+                # Recipesnewcom = Recipes.id(request.GET['recipesid'])
+                # Recipescommments(request.GET['comment'],str(request.user))
                 get_post = Recipes.objects.get(id=request.GET['recipesid'])
                 RecipesCommments_new = Comment(name=str(request.user), post_name=get_post, body=request.GET['comment'])
                 RecipesCommments_new.save()

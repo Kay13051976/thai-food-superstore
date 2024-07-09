@@ -112,7 +112,7 @@
 <nav class="">
         <form method="GET" action="{% url 'home' %}">
           <div class="input-group ">
-            <input class="form-control border border-black" type="hidden" name="recipeid" value="1" placeholder="Leave Comment"
+            <input class="form-control border border-black" type="hidden" name="recipesid" value="1" placeholder="Leave Comment"
               aria-label="Search">
             <input class="form-control border border-black" type="text" name="comment" placeholder="Leave Comment"
               aria-label="Search">
@@ -127,8 +127,8 @@
 
 
 
-{% for commentn in RecipeCommments %}
-          {% if commentn.recipeid == '1' %}
+{% for commentn in RecipesCommments %}
+          {% if commentn.recipesid == '1' %}
                 <div class="text-justify darker mt-4 ">
                   <div style="display:flex;" >
                   <img src="https://i.imgur.com/CFpa3nK.jpg" alt="" class="rounded-circle mr-2" width="40" height="40">
@@ -161,7 +161,7 @@
           <nav class="">
         <form method="GET" action="{% url 'home' %}">
           <div class="input-group ">
-            <input class="form-control border border-black" type="hidden" name="recipeid" value="2" placeholder="Leave Comment"
+            <input class="form-control border border-black" type="hidden" name="recipesid" value="2" placeholder="Leave Comment"
               aria-label="Search">
             <input class="form-control border border-black" type="text" name="comment" placeholder="Leave Comment"
               aria-label="Search">
@@ -176,8 +176,8 @@
 
 
 
-{% for commentn in RecipeCommments %}
-          {% if commentn.recipeid == '2' %}
+{% for commentn in RecipesCommments %}
+          {% if commentn.recipesid == '2' %}
                 <div class="text-justify darker mt-4 ">
                   <div style="display:flex;" >
                   <img src="https://i.imgur.com/CFpa3nK.jpg" alt="" class="rounded-circle mr-2" width="40" height="40">
@@ -225,8 +225,8 @@
         </form>
       </nav>
 
-{% for commentn in RecipeCommments %}
-          {% if commentn.recipeid == '3' %}
+{% for commentn in RecipesCommments %}
+          {% if commentn.recipesid == '3' %}
                 <div class="text-justify darker mt-4 ">
                   <div style="display:flex;" >
                   <img src="https://i.imgur.com/CFpa3nK.jpg" alt="" class="rounded-circle mr-2" width="40" height="40">

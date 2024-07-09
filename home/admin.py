@@ -1,4 +1,4 @@
 from django.contrib import admin
-from . models import RecipeCommments
+from . models import RecipesCommments
 
-admin.site.register(RecipeCommments)
+admin.site.register(RecipesCommments)

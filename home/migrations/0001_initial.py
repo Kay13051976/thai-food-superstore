@@ -12,10 +12,10 @@ class Migration(migrations.Migration):
 
     operations = [
         migrations.CreateModel(
-            name='RecipeCommments',
+            name='RecipesCommments',
             fields=[
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('recipeid', models.CharField(max_length=50)),
+                ('recipesid', models.CharField(max_length=50)),
                 ('username', models.CharField(max_length=150)),
                 ('comment', models.TextField()),
             ],
