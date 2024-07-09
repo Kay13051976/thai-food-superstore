@@ -31,19 +31,19 @@
 
 
         <div class="shadow-sm bg-white rounded card-container-margin mt-5 mb-3">
-            {% if recipe.image %}
+            {% if recipes.image %}
         <img src="{{ recipes.image.url }}" class="img-fluid" alt="pad thai with two small seasoning bowl and lime">
             {% endif %}
         <div class="card-body">
           <h3 class="card-title">
-            <i class="fa-solid fa-pepper-hot"></i> {{ recipe.name }}</h3>
-            {% if recipe.category %}
+            <i class="fa-solid fa-pepper-hot"></i> {{ recipes.name }}</h3>
+            {% if recipes.category %}
 
-            <h4>Category: {{ recipe.category.friendly_name }}</h4>
+            <h4>Category: {{ recipes.category.friendly_name }}</h4>
 
 
             {% endif %}
-          <p class="card-text">{{ recipe.description }}
+          <p class="card-text">{{ recipes.description }}
             <a class="nav-link active" href="#"
               aria-label="Visit our product-page rice and noodle(open in a same tab)">SHOP NOW</a>
           </p>
@@ -64,7 +64,7 @@
         </form>
       </nav>
 
-{% for commentn in recipe.comments.all|dictsortreversed:"id" %}
+{% for commentn in recipes.comments.all|dictsortreversed:"id" %}
 
                 <div class="text-justify darker mt-4 ">
                   <div style="display:flex;" >

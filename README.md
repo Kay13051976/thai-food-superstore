@@ -255,8 +255,8 @@ Please refer to the [FEATURES.md](FEATURES.md) file for all test-related documen
 ![Recipes detail page wire frame](documentation/recipes_page_detail_wire_frame.png)
 
 * Recipes detail page GUI
-![Recipes detail page wire frame](documentation/recipes_detail_page_gui.png)
-
+![Recipes detail page gui1](documentation/recipes_detail_page_gui1.png)
+![Recipes detail page gui2](documentation/recipes_detail_page_gui2.png)
 ### Agile Methodology
 #### GitHub Project Management
 ![github project issue image]()
