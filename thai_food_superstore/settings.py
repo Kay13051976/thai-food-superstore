@@ -27,7 +27,7 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True #'DEVELOPMENT' in os.environ #True  #
+DEBUG = False #'DEVELOPMENT' in os.environ #True  #
 
 CSRF_TRUSTED_ORIGINS = ['https://8000-kay13051976-thaifoodsup-0pxf5by5xym.ws-eu110.gitpod.io', 'https://8000-kay13051976-thaifoodsup-0pxf5by5xym.ws-eu112.gitpod.io',
                         'https://127.0.0.1', 'https://127.0.0.1:8000', 'https://localhost', 'https://*', 'https://thai-food-superstore-8d235ca8e63c.herokuapp.com', 
