@@ -39,6 +39,6 @@ def recipes_detail(request, recipes_id):
 
     recipes = get_object_or_404(Recipes, pk=int(recipes_id))
     context = {
-                    'recipes': receipes,
+                    'recipes': recipes,
                 }
     return render(request, 'recipes/recipes-details.html', context)
