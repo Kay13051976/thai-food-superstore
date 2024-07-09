@@ -247,7 +247,9 @@ Please refer to the [FEATURES.md](FEATURES.md) file for all test-related documen
 ![Recipes page wire frame](documentation/recipes_page_wire_frame.png)
 
 * Recipes page GUI
-![Recipes page wire frame](documentation/recipes_page_gui.png)
+![Recipes page wire frame](documentation/recipes_page_gui1.png)
+![Recipes page wire frame](documentation/recipes_page_gui2.png)
+![Recipes page wire frame](documentation/recipes_page_gui3.png)
 
 * Recipes detail page wire frames
 ![Recipes detail page wire frame](documentation/recipes_page_detail_wire_frame.png)
