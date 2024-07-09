@@ -30,7 +30,13 @@ def all_products(request):
                 direction = request.GET['direction']
                 if direction == 'desc':
                     sortkey = f'-{sortkey}'
-            products = products.order_by(sortkey)
+            #products = products.order_by(sortkey)
+            if sortkey == 'reset':
+                sort = None
+            if sortkey == 'asc':
+                products = products.order_by("name")
+            if sortkey == 'desc':
+                products = products.order_by("-name")
 
         if 'category' in request.GET:
             categories = request.GET['category'].split(',')
@@ -56,7 +62,7 @@ def all_products(request):
         'products': products,
         'search_term': query,
         'current_categories': categories,
-        'current_sorting': current_sorting,
+        'sort': sort,
         'pid': int(pid),
     }
 

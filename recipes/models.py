@@ -18,6 +18,8 @@ class Category(models.Model):
 
 
 class Recipes(models.Model):
+    class Meta: 
+        verbose_name_plural = "Recipes"
 
     category = models.ForeignKey('Category', null=True, blank=True, on_delete=models.SET_NULL)
     name = models.CharField(max_length=255)
