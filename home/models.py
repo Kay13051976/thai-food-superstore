@@ -3,7 +3,7 @@ from django.db import models
 # Create your models here.
 
 
-class RecipesCommments(models.Model):
+class RecipesComments(models.Model):
 
     recipesid = models.CharField(max_length=50)
     username = models.CharField(max_length=150)

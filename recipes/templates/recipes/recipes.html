@@ -116,10 +116,10 @@
         <div class="card-body">
           <h3 class="card-title">
             <i class="fa-solid fa-pepper-hot"></i> {{ recipes.name }}</h3>
-          <p class="card-text">{{ recipes.description }}
+          <p class="card-text">
             <a class="nav-link active" href="{% url 'recipes_detail' recipes.id %}" rel="noopener"
               aria-label="Visit our facebook padthai recipes(open in a new tab)">Get {{ recipes.name }} Recipes</a>
-            <a class="nav-link active" href="#"
+            <a class="nav-link active" href="{% url 'products' %}?category=rice_and_noodle"
               aria-label="Visit our product-page rice and noodle(open in a same tab)">SHOP NOW</a>
           </p>
 
