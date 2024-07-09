@@ -52,15 +52,21 @@
           SPECIAL OFFERS
         </button>
 
-        <a href="{% url 'recipes' %}" class="btn btn-light"  >
-          RECIPES
-        </a>
-
-        <a href="{% url 'letter-index' %}" class="btn btn-light"  >
-          SUBSCRIBE NEWSLETTER
-        </a>
-        {% if user.is_superuser %}
-        <a class="btn btn-light" href="{% url 'mail-letter' %}">MAIL <span class="sr-only">(current)</span></a>
+        <button type="button" class="btn btn-light" >
+          <a href="{% url 'recipes' %}"  style="color:#212529;text-decoration:none;" >
+            RECIPES
+          </a>
+        </button>
+          <button type="button" class="btn btn-light" >
+          <a href="{% url 'letter-index' %}"  style="color:#212529;text-decoration:none;" >
+            SUBSCRIBE NEWSLETTER
+          </a>
+         </button>
+  
+          {% if user.is_superuser %}
+          <button type="button" class="btn btn-light" >
+            <a style="color:#212529;text-decoration:none;" href="{% url 'mail-letter' %}">MAIL <span class="sr-only">(current)</span></a>
+          </button>
         {% endif %}
         <ul class="dropdown-menu">
           <li><a class="dropdown-item" href="{% url 'products' %}?category=special_offer_discounts">SPECIAL OFFER DISCOUNTS</a></li>
