@@ -107,26 +107,26 @@
               {% comment %} <hr class="w-50 mb-1"> {% endcomment %}
         </div>
       </div>
-{% for recipe in datas %}
+{% for recipes in datas %}
 
         <div class="shadow-sm bg-white rounded card-container-margin  mt-5 mb-3">
-            {% if recipe.image %}
-        <img src="{{ MEDIA_URL }}{{ recipe.image }}" class="img-fluid" alt="pad thai with two small seasoning bowl and lime">
+            {% if recipes.image %}
+        <img src="{{ MEDIA_URL }}{{ recipes.image }}" class="img-fluid" alt="pad thai with two small seasoning bowl and lime">
             {% endif %}
         <div class="card-body">
           <h3 class="card-title">
-            <i class="fa-solid fa-pepper-hot"></i> {{ recipe.name }}</h3>
-          <p class="card-text">{{ recipe.description }}
-            <a class="nav-link active" href="{% url 'recepies_detail' recipe.id %}" rel="noopener"
-              aria-label="Visit our facebook padthai recipes(open in a new tab)">Get {{ recipe.name }} Recipes</a>
+            <i class="fa-solid fa-pepper-hot"></i> {{ recipes.name }}</h3>
+          <p class="card-text">{{ recipes.description }}
+            <a class="nav-link active" href="{% url 'recipes_detail' recipe.id %}" rel="noopener"
+              aria-label="Visit our facebook padthai recipes(open in a new tab)">Get {{ recipes.name }} Recipes</a>
             <a class="nav-link active" href="#"
               aria-label="Visit our product-page rice and noodle(open in a same tab)">SHOP NOW</a>
           </p>
 
 <nav class="">
-        <form method="GET" action="{% url 'recepies' %}">
+        <form method="GET" action="{% url 'recipes' %}">
           <div class="input-group ">
-            <input class="form-control border border-black" type="hidden" name="recipeid" value="{{ recipe.id }}" placeholder="Leave Comment"
+            <input class="form-control border border-black" type="hidden" name="recipesid" value="{{ recipes.id }}" placeholder="Leave Comment"
               aria-label="Search">
             <input class="form-control border border-black" type="text" name="comment" placeholder="Leave Comment"
               aria-label="Search">

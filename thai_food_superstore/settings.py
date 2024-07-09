@@ -58,7 +58,7 @@ INSTALLED_APPS = [
     'bag',
     'letter.apps.LetterConfig',
     'checkout',
-    'recepies',
+    'recipes',
     'storages',
 
     # Other

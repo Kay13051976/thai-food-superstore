@@ -28,7 +28,7 @@ urlpatterns = [
     path('bag/', include('bag.urls')),
     path('letter-index/', include('letter.urls')),
     path('checkout/', include('checkout.urls')),
-    path('recepies/', include('recepies.urls')),
+    path('recipes/', include('recipes.urls')),
 
 ]
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

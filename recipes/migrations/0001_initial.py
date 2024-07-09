@@ -24,7 +24,7 @@ class Migration(migrations.Migration):
             },
         ),
         migrations.CreateModel(
-            name='Recepies',
+            name='Recipes',
             fields=[
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('name', models.CharField(max_length=255)),
@@ -34,7 +34,7 @@ class Migration(migrations.Migration):
                 ('image_url', models.URLField(blank=True, max_length=1024, null=True)),
                 ('created_at', models.DateTimeField(auto_now_add=True)),
                 ('update_at', models.DateTimeField(auto_now=True)),
-                ('category', models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.SET_NULL, to='recepies.category')),
+                ('category', models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.SET_NULL, to='recipes.category')),
             ],
         ),
         migrations.CreateModel(
@@ -44,7 +44,7 @@ class Migration(migrations.Migration):
                 ('name', models.CharField(max_length=225)),
                 ('body', models.TextField()),
                 ('date', models.DateTimeField(auto_now_add=True)),
-                ('post_name', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='comments', to='recepies.recepies')),
+                ('post_name', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='comments', to='recipes.recipes')),
             ],
         ),
     ]

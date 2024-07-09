@@ -17,7 +17,7 @@ class Category(models.Model):
         return self.friendly_name
 
 
-class Recepies(models.Model):
+class Recipes(models.Model):
 
     category = models.ForeignKey('Category', null=True, blank=True, on_delete=models.SET_NULL)
     name = models.CharField(max_length=255)
@@ -34,7 +34,7 @@ class Recepies(models.Model):
 
 class Comment(models.Model):
     name = models.CharField(max_length=225)
-    post_name = models.ForeignKey(Recepies, on_delete=models.CASCADE, related_name='comments')
+    post_name = models.ForeignKey(Recipes, on_delete=models.CASCADE, related_name='comments')
     body = models.TextField()
     date = models.DateTimeField(auto_now_add=True)
 
