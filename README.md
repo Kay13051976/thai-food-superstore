@@ -91,7 +91,7 @@ Newsletter were implemented in the email_notification app.
     - Newsletters were implemented in the email notification app. The admin can create a newsletter and send it to all customers using Django EmailMultiAlternatives. It also handles sending newsletters about promo codes and special offers.
     ![Newsletter image]()
     ![Promo Codes image]()
-    ![special offer image]()
+    ![Special offer image]()
   * Paid advertising(Future improvement)
 #### Free Marketing (organic social media marketing)
 * Facebook 
@@ -248,6 +248,12 @@ Please refer to the [FEATURES.md](FEATURES.md) file for all test-related documen
 
 * Recipes page GUI
 ![Recipes page wire frame](documentation/recipes_page_gui.png)
+
+* Recipes detail page wire frames
+![Recipes detail page wire frame](documentation/recipes_page_detail_wire_frame.png)
+
+* Recipes detail page GUI
+![Recipes detail page wire frame](documentation/recipes_detail_page_gui.png)
 
 ### Agile Methodology
 #### GitHub Project Management

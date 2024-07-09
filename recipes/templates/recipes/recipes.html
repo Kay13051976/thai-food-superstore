@@ -139,7 +139,7 @@
         </form>
       </nav>
 
-{% for commentn in recipe.comments.all|dictsortreversed:"id"|slice:":2" %}
+{% for commentn in recipes.comments.all|dictsortreversed:"id"|slice:":2" %}
 
                 <div class="text-justify darker mt-4 ">
                   <div style="display:flex;" >
