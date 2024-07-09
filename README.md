@@ -54,8 +54,8 @@ Thai Food Superstore website was created to have straightforward navigation, eye
 |       |         |
 
 ### Admin
-| Issue ID         |          User Story                      |
-|------------------| ----------------------------------------- |
+| Issue ID             |          User Story                  |
+|------------------    | ----------------------------------------- |
 |[24]()|As an Admin, I want to be able to add products so that I can add new items to my store.|
 |[25]()|As an Admin, I want to be able to edit and update products so that I can change product prices, descriptions, images, and other product criteria.|
 |[26]()|As an Admin, I want to be able to delete so that I can remove items that are no longer for sale.|
@@ -79,7 +79,7 @@ The Thai Food Superstore is aimed at those interested in exploring Thai cuisine'
 * product choice
 * good user experience
 * good service
-* Good sales
+* good sales
 ### Web Marketing 
 Newsletter were implemented in the email_notification app.
 #### Strategies
@@ -172,18 +172,6 @@ The feature requires more research time to implement, so it is not implemented a
 ## Features
 Please refer to the [FEATURES.md](FEATURES.md) file for all test-related documentation.
 
-
-![]()
-![]()
-![]()
-![]()
-![]()
-![]()
-![]()
-![]()
-![]()
-
-
 ## Design
 ### Color Scheme
 [Color hex link](https://www.color-hex.com/)
@@ -199,7 +187,7 @@ Please refer to the [FEATURES.md](FEATURES.md) file for all test-related documen
 ![Blue2](documentation/color_image_blue1.png)
 
 #### Turquoise
-- turquoise color,Turquoise is a cyan color, based on the mineral of the same name. The spiritual meaning of turquoise symbolizes wisdom, tranquillity, protection, good fortune and loyalty.
+- Turquoise has been used for the submit button in the form to dominate and guide the user. Turquoise is a cyan colour based on the mineral of the same name. The spiritual meaning of turquoise symbolizes wisdom, tranquillity, protection, good fortune, and loyalty.
 ![Form submit button colour](documentation/form_submit_button_colour.png)
 
 
@@ -254,6 +242,12 @@ Please refer to the [FEATURES.md](FEATURES.md) file for all test-related documen
 
 * Fruit page GUI
 ![Fruit page](documentation/fruit_page_gui.png)
+
+* Recipes page wire frames
+![Recipes page wire frame](documentation/recipes_page_wire_frame.png)
+
+* Recipes page GUI
+![Recipes page wire frame](documentation/recipes_page_gui.png)
 
 ### Agile Methodology
 #### GitHub Project Management
