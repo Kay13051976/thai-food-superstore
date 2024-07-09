@@ -101,8 +101,7 @@
         <div class="card-body">
           <h3 class="card-title">
             <i class="fa-solid fa-pepper-hot"></i> Pad Thai</h3>
-          <p class="card-text">Pad Thai is one of the most popular dishes in Thailand. People tend to have it for lunch
-            because it is easy to cook: it is a nice and warm stir-fry noodle.
+          <p class="card-text">
             <a class="nav-link active" href="" target="_blank" rel="noopener"
               aria-label="Visit our facebook padthai recipes(open in a new tab)">Get Pad Thai Recipes and share your recipes in a comment</a>
             <a class="nav-link active" href="{% url 'products' %}?category=special_offer_discounts"
@@ -112,7 +111,7 @@
 <nav class="">
         <form method="GET" action="{% url 'home' %}">
           <div class="input-group ">
-            <input class="form-control border border-black" type="hidden" name="recipesid" value="1" placeholder="Leave Comment"
+            <input class="form-control border border-black" type="hidden" name="recipeid" value="1" placeholder="Leave Comment"
               aria-label="Search">
             <input class="form-control border border-black" type="text" name="comment" placeholder="Leave Comment"
               aria-label="Search">
@@ -127,8 +126,8 @@
 
 
 
-{% for commentn in RecipesComments %}
-          {% if commentn.recipesid == '1' %}
+{% for commentn in RecipeCommments %}
+          {% if commentn.recipeid == '1' %}
                 <div class="text-justify darker mt-4 ">
                   <div style="display:flex;" >
                   <img src="https://i.imgur.com/CFpa3nK.jpg" alt="" class="rounded-circle mr-2" width="40" height="40">
@@ -149,9 +148,7 @@
 
           <h3 class="card-title">
             <i class="fa-solid fa-pepper-hot"></i> Chicken Green Curry</h3>
-          <p class="card-text">Chicken Green Curry is a deliciously rich, aromatic Thai curry made with authentic Thai
-            green paste. It can be mild or spicy, and the vibrant, creamy sauce made with coconut milk is perfect for
-            serving with Thai jasmine rice as a side dish.
+          <p class="card-text">
             <a class="nav-link active" href="#" target="_blank" rel="noopener"
               aria-label="Visit our facebook Thai chicken green curry recipes story(open in a new tab)">Get Chicken green curry Recipes and share your recipes in a comment</a>
             <a class="nav-link active" href="{% url 'products' %}?category=special_offer_discounts" aria-label="Visit our product-page paste(open in a same tab)">SHOP
@@ -161,7 +158,7 @@
           <nav class="">
         <form method="GET" action="{% url 'home' %}">
           <div class="input-group ">
-            <input class="form-control border border-black" type="hidden" name="recipesid" value="2" placeholder="Leave Comment"
+            <input class="form-control border border-black" type="hidden" name="recipeid" value="2" placeholder="Leave Comment"
               aria-label="Search">
             <input class="form-control border border-black" type="text" name="comment" placeholder="Leave Comment"
               aria-label="Search">
@@ -176,8 +173,8 @@
 
 
 
-{% for commentn in RecipesCommments %}
-          {% if commentn.recipesid == '2' %}
+{% for commentn in RecipeCommments %}
+          {% if commentn.recipeid == '2' %}
                 <div class="text-justify darker mt-4 ">
                   <div style="display:flex;" >
                   <img src="https://i.imgur.com/CFpa3nK.jpg" alt="" class="rounded-circle mr-2" width="40" height="40">
@@ -197,11 +194,7 @@
 
           <h3 class="card-title">
             <i class="fa-solid fa-pepper-hot"></i> Thai Floating Market Delivery Fresh Fruit Every Day</h3>
-          <p class="card-text"> Damnoen Saduak Floating Market is
-            Thailand's largest and most famous floating market is where vendors on boats sell local food and unique
-            pieces—from kitchenware to clothing. Try the warm coconut pancakes, pad thai, boat noodles, and classic
-            mango sticky rice as you float along the slender canals. You can also find fresh fruits and vegetables
-            here.
+          <p class="card-text">
             <a class="nav-link active" href="#" target="_blank" rel="noopener"
               aria-label="Visit our facebook Thai fruit and vegetables story (open in a new tab)">Get to know the Thai floating market and share the Thai food market you know in a comment</a>
             <a class="nav-link active" href="{% url 'products' %}?category=fresh"
@@ -225,8 +218,8 @@
         </form>
       </nav>
 
-{% for commentn in RecipesCommments %}
-          {% if commentn.recipesid == '3' %}
+{% for commentn in RecipeCommments %}
+          {% if commentn.recipeid == '3' %}
                 <div class="text-justify darker mt-4 ">
                   <div style="display:flex;" >
                   <img src="https://i.imgur.com/CFpa3nK.jpg" alt="" class="rounded-circle mr-2" width="40" height="40">
